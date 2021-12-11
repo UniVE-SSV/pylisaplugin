@@ -1,0 +1,110 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="" path="ActionManager" hit="" />
+    <option name="actual" path="ActionManager" hit="Actual Size" />
+    <option name="size" path="ActionManager" hit="Actual Size" />
+    <option name="add" path="ActionManager" hit="Add" />
+    <option name="apply" path="ActionManager" hit="Apply Current Layout" />
+    <option name="current" path="ActionManager" hit="Apply Current Layout" />
+    <option name="layout" path="ActionManager" hit="Apply Current Layout" />
+    <option name="arc" path="ActionManager" hit="Arc" />
+    <option name="auto" path="ActionManager" hit="Auto Route Edges" />
+    <option name="edges" path="ActionManager" hit="Auto Route Edges" />
+    <option name="route" path="ActionManager" hit="Auto Route Edges" />
+    <option name="balloons" path="ActionManager" hit="Balloons" />
+    <option name="bezier" path="ActionManager" hit="Bezier" />
+    <option name="by" path="ActionManager" hit="By Sources" />
+    <option name="sources" path="ActionManager" hit="By Sources" />
+    <option name="by" path="ActionManager" hit="By Targets" />
+    <option name="targets" path="ActionManager" hit="By Targets" />
+    <option name="channel" path="ActionManager" hit="Channel" />
+    <option name="circular" path="ActionManager" hit="Circular" />
+    <option name="compact" path="ActionManager" hit="Compact" />
+    <option name="delete" path="ActionManager" hit="Delete Selection" />
+    <option name="selection" path="ActionManager" hit="Delete Selection" />
+    <option name="compactly" path="ActionManager" hit="Display Nodes Compactly" />
+    <option name="display" path="ActionManager" hit="Display Nodes Compactly" />
+    <option name="nodes" path="ActionManager" hit="Display Nodes Compactly" />
+    <option name="balloons" path="ActionManager" hit="Edge Bundled Balloons" />
+    <option name="bundled" path="ActionManager" hit="Edge Bundled Balloons" />
+    <option name="edge" path="ActionManager" hit="Edge Bundled Balloons" />
+    <option name="bundled" path="ActionManager" hit="Edge Bundled Circular" />
+    <option name="circular" path="ActionManager" hit="Edge Bundled Circular" />
+    <option name="edge" path="ActionManager" hit="Edge Bundled Circular" />
+    <option name="bundled" path="ActionManager" hit="Edge Bundled Organic" />
+    <option name="edge" path="ActionManager" hit="Edge Bundled Organic" />
+    <option name="organic" path="ActionManager" hit="Edge Bundled Organic" />
+    <option name="bundled" path="ActionManager" hit="Edge Bundled Radial" />
+    <option name="edge" path="ActionManager" hit="Edge Bundled Radial" />
+    <option name="radial" path="ActionManager" hit="Edge Bundled Radial" />
+    <option name="edit" path="ActionManager" hit="Edit" />
+    <option name="family" path="ActionManager" hit="Family" />
+    <option name="content" path="ActionManager" hit="Fit Content" />
+    <option name="fit" path="ActionManager" hit="Fit Content" />
+    <option name="after" path="ActionManager" hit="Fit Content After Layout" />
+    <option name="content" path="ActionManager" hit="Fit Content After Layout" />
+    <option name="fit" path="ActionManager" hit="Fit Content After Layout" />
+    <option name="layout" path="ActionManager" hit="Fit Content After Layout" />
+    <option name="generic" path="ActionManager" hit="Generic" />
+    <option name="hierarchic" path="ActionManager" hit="Hierarchic" />
+    <option name="groups" path="ActionManager" hit="Hierarchic Groups" />
+    <option name="hierarchic" path="ActionManager" hit="Hierarchic Groups" />
+    <option name="organic" path="ActionManager" hit="Organic" />
+    <option name="groups" path="ActionManager" hit="Orthogonal Groups" />
+    <option name="orthogonal" path="ActionManager" hit="Orthogonal Groups" />
+    <option name="curve" path="ActionManager" hit="Quad Curve" />
+    <option name="quad" path="ActionManager" hit="Quad Curve" />
+    <option name="radial" path="ActionManager" hit="Radial" />
+    <option name="random" path="ActionManager" hit="Random" />
+    <option name="remove" path="ActionManager" hit="Remove" />
+    <option name="as" path="ActionManager" hit="Same as Main" />
+    <option name="main" path="ActionManager" hit="Same as Main" />
+    <option name="same" path="ActionManager" hit="Same as Main" />
+    <option name="parallel" path="ActionManager" hit="Series Parallel" />
+    <option name="series" path="ActionManager" hit="Series Parallel" />
+    <option name="bridges" path="ActionManager" hit="Show Bridges" />
+    <option name="show" path="ActionManager" hit="Show Bridges" />
+    <option name="edge" path="ActionManager" hit="Show Edge Labels" />
+    <option name="labels" path="ActionManager" hit="Show Edge Labels" />
+    <option name="show" path="ActionManager" hit="Show Edge Labels" />
+    <option name="grid" path="ActionManager" hit="Show Grid" />
+    <option name="show" path="ActionManager" hit="Show Grid" />
+    <option name="for" path="ActionManager" hit="Show Structure View for Selected Node" />
+    <option name="node" path="ActionManager" hit="Show Structure View for Selected Node" />
+    <option name="selected" path="ActionManager" hit="Show Structure View for Selected Node" />
+    <option name="show" path="ActionManager" hit="Show Structure View for Selected Node" />
+    <option name="structure" path="ActionManager" hit="Show Structure View for Selected Node" />
+    <option name="view" path="ActionManager" hit="Show Structure View for Selected Node" />
+    <option name="cycle" path="ActionManager" hit="Single Cycle" />
+    <option name="single" path="ActionManager" hit="Single Cycle" />
+    <option name="polyline" path="ActionManager" hit="Smoothed Polyline" />
+    <option name="smoothed" path="ActionManager" hit="Smoothed Polyline" />
+    <option name="grid" path="ActionManager" hit="Snap to Grid" />
+    <option name="snap" path="ActionManager" hit="Snap to Grid" />
+    <option name="to" path="ActionManager" hit="Snap to Grid" />
+    <option name="spline" path="ActionManager" hit="Spline" />
+    <option name="polyline" path="ActionManager" hit="Straight Polyline" />
+    <option name="straight" path="ActionManager" hit="Straight Polyline" />
+    <option name="wide" path="ActionManager" hit="Wide" />
+    <option name="in" path="ActionManager" hit="Zoom In" />
+    <option name="zoom" path="ActionManager" hit="Zoom In" />
+    <option name="out" path="ActionManager" hit="Zoom Out" />
+    <option name="zoom" path="ActionManager" hit="Zoom Out" />
+    <option name="" path="ActionManager" hit="🠈 Right to Left" />
+    <option name="left" path="ActionManager" hit="🠈 Right to Left" />
+    <option name="right" path="ActionManager" hit="🠈 Right to Left" />
+    <option name="to" path="ActionManager" hit="🠈 Right to Left" />
+    <option name="" path="ActionManager" hit="🠉 Bottom to Top" />
+    <option name="bottom" path="ActionManager" hit="🠉 Bottom to Top" />
+    <option name="to" path="ActionManager" hit="🠉 Bottom to Top" />
+    <option name="top" path="ActionManager" hit="🠉 Bottom to Top" />
+    <option name="" path="ActionManager" hit="🠊 Left to Right" />
+    <option name="left" path="ActionManager" hit="🠊 Left to Right" />
+    <option name="right" path="ActionManager" hit="🠊 Left to Right" />
+    <option name="to" path="ActionManager" hit="🠊 Left to Right" />
+    <option name="" path="ActionManager" hit="🠋 Top to Bottom" />
+    <option name="bottom" path="ActionManager" hit="🠋 Top to Bottom" />
+    <option name="to" path="ActionManager" hit="🠋 Top to Bottom" />
+    <option name="top" path="ActionManager" hit="🠋 Top to Bottom" />
+  </configurable>
+</options>

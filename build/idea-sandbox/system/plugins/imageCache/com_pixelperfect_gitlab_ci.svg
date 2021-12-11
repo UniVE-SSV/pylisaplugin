@@ -1,0 +1,32 @@
+<svg id="gitlab_ci_logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="5" y="29" width="95" height="81" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="shape" width="200" height="200"/>
+  <g id="Scroll_Group_1" data-name="Scroll Group 1" transform="translate(16 -8)" clip-path="url(#clip-path)" style="isolation: isolate">
+    <text id="CI" transform="translate(0 108)" fill="#fff" font-size="110" font-family="Overpass-Black, Overpass" font-weight="800"><tspan x="0" y="0">CI</tspan></text>
+  </g>
+  <g id="ic_gitlab_13" transform="translate(-108 -191)">
+    <rect id="shape-2" data-name="shape" width="61" height="61" transform="translate(234 311)" fill="none"/>
+    <g id="logo" transform="translate(234 313.334)">
+      <g id="Fill-1-_-Group-24" data-name="Fill-1-+-Group-24">
+        <g id="Group-24">
+          <g id="Group">
+            <path id="Fill-4" d="M77.589,109.1h0L88.757,74.734H66.421L77.589,109.1Z" transform="translate(-47.224 -53.134)" fill="#e24329" fill-rule="evenodd"/>
+            <path id="Fill-6" fill="#fc6d26" fill-rule="evenodd"/>
+            <path id="Fill-8" d="M39.087,109.1,27.92,74.734H12.268Z" transform="translate(-8.723 -53.134)" fill="#fc6d26" fill-rule="evenodd"/>
+            <path id="Fill-10" fill="#fc6d26" fill-rule="evenodd"/>
+            <path id="Fill-12" d="M3.641,74.734h0L.248,85.179a2.312,2.312,0,0,0,.84,2.585L30.46,109.1Z" transform="translate(-0.096 -53.134)" fill="#fca326" fill-rule="evenodd"/>
+            <path id="Fill-14" fill="#fc6d26" fill-rule="evenodd"/>
+            <path id="Fill-16" d="M12.269,21.845H27.92l-6.726-20.7a1.156,1.156,0,0,0-2.2,0Z" transform="translate(-8.723 -0.245)" fill="#e24329" fill-rule="evenodd"/>
+            <path id="Fill-18" d="M105.061,109.1l11.168-34.371H131.88Z" transform="translate(-74.697 -53.134)" fill="#fc6d26" fill-rule="evenodd"/>
+            <path id="Fill-20" d="M131.88,74.734h0l3.394,10.445a2.312,2.312,0,0,1-.84,2.585L105.061,109.1Z" transform="translate(-74.697 -53.134)" fill="#fca326" fill-rule="evenodd"/>
+            <path id="Fill-22" d="M159.353,21.845H143.7l6.726-20.7a1.156,1.156,0,0,1,2.2,0Z" transform="translate(-102.169 -0.245)" fill="#e24329" fill-rule="evenodd"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

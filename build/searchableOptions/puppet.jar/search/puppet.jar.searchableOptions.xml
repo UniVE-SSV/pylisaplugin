@@ -1,0 +1,68 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="dependencies" path="ActionManager" hit="Install dependencies for module or environment" />
+    <option name="environment" path="ActionManager" hit="Install dependencies for module or environment" />
+    <option name="for" path="ActionManager" hit="Install dependencies for module or environment" />
+    <option name="install" path="ActionManager" hit="Install dependencies for module or environment" />
+    <option name="module" path="ActionManager" hit="Install dependencies for module or environment" />
+    <option name="or" path="ActionManager" hit="Install dependencies for module or environment" />
+  </configurable>
+  <configurable id="reference.settingsdialog.IDE.editor.colors.Puppet" configurable_name="Puppet">
+    <option name="puppet" hit="Puppet" />
+    <option name="bad" hit="Bad character" />
+    <option name="character" hit="Bad character" />
+    <option name="braces" hit="Braces" />
+    <option name="brackets" hit="Brackets" />
+    <option name="comments" hit="Comments" />
+    <option name="digits" hit="Digits" />
+    <option name="double" hit="Double quoted string" />
+    <option name="quoted" hit="Double quoted string" />
+    <option name="string" hit="Double quoted string" />
+    <option name="escape" hit="Escape sequences" />
+    <option name="sequences" hit="Escape sequences" />
+    <option name="heredoc" hit="Heredoc tags" />
+    <option name="tags" hit="Heredoc tags" />
+    <option name="keywords" hit="Keywords" />
+    <option name="names" hit="Names" />
+    <option name="operators" hit="Operators" />
+    <option name="parentheses" hit="Parentheses" />
+    <option name="regexp" hit="RegExp" />
+    <option name="references" hit="Resource references" />
+    <option name="resource" hit="Resource references" />
+    <option name="quoted" hit="Single quoted string" />
+    <option name="single" hit="Single quoted string" />
+    <option name="string" hit="Single quoted string" />
+    <option name="interpolation" hit="Variable interpolation tags" />
+    <option name="tags" hit="Variable interpolation tags" />
+    <option name="variable" hit="Variable interpolation tags" />
+    <option name="interpolations" hit="Variable interpolations" />
+    <option name="variable" hit="Variable interpolations" />
+    <option name="variables" hit="Variables" />
+  </configurable>
+  <configurable id="preferences.sourceCode.Puppet" configurable_name="Puppet">
+    <option name="continuation" path="Tabs and Indents" hit="Continuation indent:" />
+    <option name="indent" path="Tabs and Indents" hit="Continuation indent:" />
+    <option name="disable" hit="Disable" />
+    <option name="indent" path="Tabs and Indents" hit="Indent:" />
+    <option name="empty" path="Tabs and Indents" hit="Keep indents on empty lines" />
+    <option name="indents" path="Tabs and Indents" hit="Keep indents on empty lines" />
+    <option name="keep" path="Tabs and Indents" hit="Keep indents on empty lines" />
+    <option name="lines" path="Tabs and Indents" hit="Keep indents on empty lines" />
+    <option name="on" path="Tabs and Indents" hit="Keep indents on empty lines" />
+    <option name="loading" hit="Loading " />
+    <option name="puppet" hit="Puppet" />
+    <option name="scheme" hit="Scheme:" />
+    <option name="from" hit="Set from " />
+    <option name="set" hit="Set from " />
+    <option name="smart" path="Tabs and Indents" hit="Smart tabs" />
+    <option name="tabs" path="Tabs and Indents" hit="Smart tabs" />
+    <option name="size" path="Tabs and Indents" hit="Tab size:" />
+    <option name="tab" path="Tabs and Indents" hit="Tab size:" />
+    <option name="and" path="Tabs and Indents" hit="Tabs and Indents" />
+    <option name="indents" path="Tabs and Indents" hit="Tabs and Indents" />
+    <option name="tabs" path="Tabs and Indents" hit="Tabs and Indents" />
+    <option name="character" path="Tabs and Indents" hit="Use tab character" />
+    <option name="tab" path="Tabs and Indents" hit="Use tab character" />
+    <option name="use" path="Tabs and Indents" hit="Use tab character" />
+  </configurable>
+</options>

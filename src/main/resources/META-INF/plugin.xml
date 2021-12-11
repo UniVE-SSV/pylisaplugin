@@ -1,0 +1,37 @@
+<idea-plugin>
+    <id>ml.PyLisa</id>
+    <name>PyLisa</name>
+    <vendor>ml</vendor>
+
+    <description>
+        <![CDATA[
+        Description: Analyzer for Jupyter Notebooks
+    ]]>
+    </description>
+
+    <depends>com.intellij.modules.python-core-capable</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <localInspection id="PyLisaInspection"
+                         displayName="PyLisaInspection"
+                         groupPath="Jupyter"
+                         groupName="PyLisaInspections"
+                         level="WARNING"
+                         runForWholeFile="true"
+                         enabledByDefault="false"
+                         implementationClass="PyLisa.PyLisaInspection"/>
+        <!--<annotator id="PyLisaAnnotator"
+                   language=""
+                   implementationClass="PyLisa.PyLisaAnnotator"/>-->
+    </extensions>
+
+    <actions>
+        <group id="PyLisaActions" text="PyLisaActions" popup="true">
+            <add-to-group group-id="MainMenu" anchor="last"/>
+            <action id="PyLisaAction"
+                    text="PyLisaAction"
+                    class="PyLisa.PyLisaAction">
+            </action>
+        </group>
+    </actions>
+</idea-plugin>

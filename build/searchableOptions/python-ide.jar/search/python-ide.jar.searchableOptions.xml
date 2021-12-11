@@ -1,0 +1,30 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="" path="ActionManager" hit="" />
+    <option name="a" path="ActionManager" hit="Create a new project" />
+    <option name="create" path="ActionManager" hit="Create a new project" />
+    <option name="new" path="ActionManager" hit="Create a new project" />
+    <option name="project" path="ActionManager" hit="Create a new project" />
+    <option name="a" path="ActionManager" hit="Create a new project." />
+    <option name="create" path="ActionManager" hit="Create a new project." />
+    <option name="new" path="ActionManager" hit="Create a new project." />
+    <option name="project" path="ActionManager" hit="Create a new project." />
+    <option name="new" path="ActionManager" hit="New Project" />
+    <option name="project" path="ActionManager" hit="New Project" />
+    <option name="new" path="ActionManager" hit="New Project…" />
+    <option name="project" path="ActionManager" hit="New Project…" />
+    <option name="resource" path="ActionManager" hit="Resource Root" />
+    <option name="root" path="ActionManager" hit="Resource Root" />
+    <option name="interpreter" path="ActionManager" hit="Switch Python Interpreter" />
+    <option name="python" path="ActionManager" hit="Switch Python Interpreter" />
+    <option name="switch" path="ActionManager" hit="Switch Python Interpreter" />
+  </configurable>
+  <configurable id="com.jetbrains.django.DjangoModulesConfigurable" configurable_name="Django">
+    <option name="django" hit="Django" />
+  </configurable>
+  <configurable id="com.jetbrains.appengine.AppEngineModulesConfigurable" configurable_name="Google App Engine">
+    <option name="app" hit="Google App Engine" />
+    <option name="engine" hit="Google App Engine" />
+    <option name="google" hit="Google App Engine" />
+  </configurable>
+</options>

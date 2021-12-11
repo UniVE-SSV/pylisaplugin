@@ -1,0 +1,21 @@
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="dbmsoutput" path="ActionManager" hit="Enable DBMSOUTPUT" />
+    <option name="enable" path="ActionManager" hit="Enable DBMSOUTPUT" />
+    <option name="capturing" path="ActionManager" hit="Enable capturing from DBMS_OUTPUT" />
+    <option name="dbms" path="ActionManager" hit="Enable capturing from DBMS_OUTPUT" />
+    <option name="enable" path="ActionManager" hit="Enable capturing from DBMS_OUTPUT" />
+    <option name="from" path="ActionManager" hit="Enable capturing from DBMS_OUTPUT" />
+    <option name="output" path="ActionManager" hit="Enable capturing from DBMS_OUTPUT" />
+  </configurable>
+  <configurable id="debugger.stepping" configurable_name="Stepping">
+    <option name="graceful" hit="Graceful" />
+    <option name="native" hit="Native" />
+    <option name="oracle" hit="Oracle" />
+    <option name="at" hit="Pause at begin:" />
+    <option name="begin" hit="Pause at begin:" />
+    <option name="pause" hit="Pause at begin:" />
+    <option name="mode" hit="Stepping mode:" />
+    <option name="stepping" hit="Stepping mode:" />
+  </configurable>
+</options>
