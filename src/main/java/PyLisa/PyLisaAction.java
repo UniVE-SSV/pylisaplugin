@@ -1,6 +1,5 @@
 package PyLisa;
-//group = 'it.unive'
-//version = '0.1b3'
+
 import PyLisa.ForAnalysis.SourceCodeLocation;
 import PyLisa.ForAnalysis.Stub;
 import PyLisa.ForAnalysis.Warning;

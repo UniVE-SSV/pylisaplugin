@@ -36,6 +36,9 @@ public class PyLisaInspection extends LocalInspectionTool {
                 }
             }*/
 
+            //group = 'it.unive'
+            //version = '0.1b3'
+
             @Override
             public void visitFile(@NotNull PsiFile pFile) {
 
