@@ -5,8 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="437901f4-dc15-4c81-a952-90ebf94c63f1" name="Changes" comment="pylisaplugin">
-      <change beforePath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaLineMarkerProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaAction$FileChooserDescriptorJupyterNotebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaAction$FileChooserDescriptorJupyterNotebook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaAnnotator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaAnnotator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaAction$FileChooserDescriptorJupyterNotebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaAction$FileChooserDescriptorJupyterNotebook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaAnnotator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaAnnotator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/pylisaplugin.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/pylisaplugin.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/bundled_plugins.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/bundled_plugins.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/pylisaplugin/lib/pylisaplugin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/pluginsXMLIds.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/pluginsXMLIds.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/pluginsXMLIds.json.etag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/pluginsXMLIds.json.etag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/AnalyzerP.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/pylisaplugin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/patchedPluginXmlFiles/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/patchedPluginXmlFiles/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/platform-api.jar/search/platform-api.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/searchableOptions/platform-api.jar/search/platform-api.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaAnnotator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaAnnotator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaInspection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaInspection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +124,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -310,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639238003096</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pylisaplugin">
+      <created>1639238228534</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639238228534</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -3,13 +3,16 @@ plugins {
     id 'org.jetbrains.intellij' version '1.3.0'
 }
 
-group 'ml'
+group 'it.unive'
+version '0.1b3'
 
 repositories {
     mavenCentral()
 }
 
 intellij {
+    pluginName = 'PyLisaPlugin'
+    plugins = ['Pythonid:213.5744.248']
     type = 'PY'
     version = '2021.3'
     downloadSources = false

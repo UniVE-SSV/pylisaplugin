@@ -659,6 +659,7 @@
     <option name="project" path="ActionManager" hit="Project View Popup Refactoring Group" />
     <option name="refactoring" path="ActionManager" hit="Project View Popup Refactoring Group" />
     <option name="view" path="ActionManager" hit="Project View Popup Refactoring Group" />
+    <option name="pylisaactions" path="ActionManager" hit="PyLisaActions" />
     <option name="python" path="ActionManager" hit="Python" />
     <option name="query" path="ActionManager" hit="Query Result" />
     <option name="result" path="ActionManager" hit="Query Result" />

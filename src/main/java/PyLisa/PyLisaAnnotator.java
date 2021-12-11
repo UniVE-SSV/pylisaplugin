@@ -11,6 +11,8 @@ import com.intellij.openapi.editor.Document;
 import com.intellij.openapi.vfs.VirtualFile;
 import com.intellij.psi.PsiDocumentManager;
 import com.intellij.psi.PsiElement;
+import com.jetbrains.python.psi.PyExpression;
+import com.jetbrains.python.psi.PyStatement;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Collection;
@@ -34,8 +36,8 @@ public class PyLisaAnnotator implements Annotator{
                 StringBuilder s = new StringBuilder();
 
                 assert dFile != null;
-                if(pElement.toString().startsWith("Py") && wLine == dFile.getLineNumber(pElement.getTextOffset()))
-                    aHolder.newAnnotation(HighlightSeverity.WARNING, s.append("Name: " + pElement + " Line: " + dFile.getLineNumber(pElement.getTextOffset()) + " " + e.getMessage()).toString()).create();
+                if(pElement instanceof PyStatement || pElement instanceof PyExpression && wLine == 3)
+                    aHolder.newAnnotation(HighlightSeverity.WARNING, s.append("Name: " + pElement).toString()).create();
             }
         }
     }

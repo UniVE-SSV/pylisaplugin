@@ -9,10 +9,11 @@
     ]]>
     </description>
 
-    <depends>com.intellij.modules.python-core-capable</depends>
+    <depends>com.intellij.modules.python</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <localInspection id="PyLisaInspection"
+                         language="JupyterPython"
                          displayName="PyLisaInspection"
                          groupPath="Jupyter"
                          groupName="PyLisaInspections"
@@ -20,9 +21,9 @@
                          runForWholeFile="true"
                          enabledByDefault="false"
                          implementationClass="PyLisa.PyLisaInspection"/>
-        <!--<annotator id="PyLisaAnnotator"
-                   language=""
-                   implementationClass="PyLisa.PyLisaAnnotator"/>-->
+        <!--<codeInsight.lineMarkerProvider id="PyLisaLineMarker"
+                                        language="JupyterPython"
+                                        implementationClass="PyLisa.PyLisaLineMarkerProvider"/>-->
     </extensions>
 
     <actions>
