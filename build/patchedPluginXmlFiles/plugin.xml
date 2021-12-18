@@ -8,9 +8,6 @@
   <depends>com.intellij.modules.python</depends>
   <extensions defaultExtensionNs="com.intellij">
     <localInspection id="PyLisaInspection" language="JupyterPython" displayName="PyLisaInspection" groupPath="Jupyter" groupName="PyLisaInspections" level="WARNING" runForWholeFile="true" enabledByDefault="false" implementationClass="PyLisa.PyLisaInspection" />
-    <!--<codeInsight.lineMarkerProvider id="PyLisaLineMarker"
-                                        language="JupyterPython"
-                                        implementationClass="PyLisa.PyLisaLineMarkerProvider"/>-->
   </extensions>
   <actions>
     <group id="PyLisaActions" text="PyLisaActions" popup="true">
