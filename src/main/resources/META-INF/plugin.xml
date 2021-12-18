@@ -21,9 +21,6 @@
                          runForWholeFile="true"
                          enabledByDefault="false"
                          implementationClass="PyLisa.PyLisaInspection"/>
-        <!--<codeInsight.lineMarkerProvider id="PyLisaLineMarker"
-                                        language="JupyterPython"
-                                        implementationClass="PyLisa.PyLisaLineMarkerProvider"/>-->
     </extensions>
 
     <actions>

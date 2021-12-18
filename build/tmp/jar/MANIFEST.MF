@@ -4,6 +4,6 @@ Build-JVM: 11.0.13 (Amazon.com Inc. 11.0.13+8-LTS)
 Version: 0.1b3
 Build-Plugin: Gradle IntelliJ Plugin
 Build-Plugin-Version: 1.3.0
-Build-OS: Linux 5.11.0-38-generic amd64
+Build-OS: Linux 5.11.0-41-generic amd64
 Build-SDK: PY-2021.3
 

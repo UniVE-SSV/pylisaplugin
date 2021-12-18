@@ -4,46 +4,303 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="437901f4-dc15-4c81-a952-90ebf94c63f1" name="Changes" comment="pylisaplugin">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaLineMarkerProvider.java" afterDir="false" />
+    <list default="true" id="437901f4-dc15-4c81-a952-90ebf94c63f1" name="Changes" comment="plugin inspections fixed">
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaAction$FileChooserDescriptorJupyterNotebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaAction$FileChooserDescriptorJupyterNotebook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaAnnotator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaAnnotator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaAction$FileChooserDescriptorJupyterNotebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaAction$FileChooserDescriptorJupyterNotebook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaAnnotator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaAnnotator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/pylisaplugin.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/pylisaplugin.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config/bundled_plugins.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/config/bundled_plugins.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins/pylisaplugin/lib/pylisaplugin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/AnalyzerP-1.0-SNAPSHOT.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/AnalyzerP-1.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/AnalyzerP.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/DepPlugin-1.0-SNAPSHOT.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/pylisaplugin.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/config-test/options/updates.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins-test/AnalyzerP/lib/AnalyzerP-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/plugins-test/AnalyzerP/lib/pylisa.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/vfs_enum_attrib.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/vfs_enum_attrib.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/angularjs.app.index/angularjs.app.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/angularjs.app.index/angularjs.app.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/angularjs.template.cache/angularjs.template.cache.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/angularjs.template.cache/angularjs.template.cache.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/angularjs.ui.router.views.index/angularjs.ui.router.views.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/angularjs.ui.router.views.index/angularjs.ui.router.views.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/compassfunctionsindex/CompassFunctionsIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/compassfunctionsindex/CompassFunctionsIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/css.template.selectors/css.template.selectors.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/css.template.selectors/css.template.selectors.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/cssindex/CssIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/cssindex/CssIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/djangoblockinheritanceindex/DjangoBlockInheritanceIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/djangoblockinheritanceindex/DjangoBlockInheritanceIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/docker.compose.services/docker.compose.services.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/docker.compose.services/docker.compose.services.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/domfileindex/DomFileIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/domfileindex/DomFileIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/editorconfig.index.name/editorconfig.index.name.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/editorconfig.index.name/editorconfig.index.name.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/fileincludes/fileIncludes.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/fileincludes/fileIncludes.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filenameindex/FilenameIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/filetypes/filetypes.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/filetypes/filetypes.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/frameworkdetectionindex/FrameworkDetectionIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/frameworkdetectionindex/FrameworkDetectionIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/hashfragmentindex/HashFragmentIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/hashfragmentindex/HashFragmentIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/html5.custom.attributes.index/html5.custom.attributes.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/html5.custom.attributes.index/html5.custom.attributes.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/htmlscriptsrcindex/HtmlScriptSrcIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/htmlscriptsrcindex/HtmlScriptSrcIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/htmltagidindex/HtmlTagIdIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/htmltagidindex/HtmlTagIdIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/http.request.completion.host/http.request.completion.host.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/http.request.completion.host/http.request.completion.host.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/http.request.execution.environment/http.request.execution.environment.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/http.request.execution.environment/http.request.execution.environment.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/http.request.headers.values.index/http.request.headers.values.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/http.request.headers.values.index/http.request.headers.values.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/http.request.name.index/http.request.name.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/http.request.name.index/http.request.name.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/IdIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/idindex/IdIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/indices.config" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/indices.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/indices.enum" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/indices.enum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/js.custom.single.entry.index/js.custom.single.entry.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/js.custom.single.entry.index/js.custom.single.entry.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/js.implicit.elements.index/js.implicit.elements.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/js.implicit.elements.index/js.implicit.elements.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/js.package.index/js.package.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/js.package.index/js.package.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/js.string.literal.words.index/js.string.literal.words.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/js.string.literal.words.index/js.string.literal.words.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/js.test.names/js.test.names.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/js.test.names/js.test.names.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/json.file.root.values/json.file.root.values.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/json.file.root.values/json.file.root.values.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/puppetfactsindex/PuppetFactsIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/puppetfactsindex/PuppetFactsIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/puppetrubypluginsindex/PuppetRubyPluginsIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/puppetrubypluginsindex/PuppetRubyPluginsIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/py.module.name/Py.module.name.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/py.module.name/Py.module.name.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/py.setuptools.namespace/Py.setuptools.namespace.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/py.setuptools.namespace/Py.setuptools.namespace.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/relaxsymbolindex/RelaxSymbolIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/relaxsymbolindex/RelaxSymbolIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/rep.names" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/rep.names" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/rep.names.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/rep.names.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/rep.names.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/rep.names.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/rep.names_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/rep.names_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/schematypeinheritance/SchemaTypeInheritance.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/shared_indexes/shared-index.chunks" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/shared_indexes/shared-index.chunks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/sql.routine.index/sql.routine.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/sql.routine.index/sql.routine.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/sql.types.count.index/sql.types.count.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/sql.types.count.index/sql.types.count.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Css.ampersand.selector.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Css.ampersand.selector.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Css.attr.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Css.attr.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Css.class.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Css.class.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Css.custom.mixin.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Css.custom.mixin.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Css.custom.property.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Css.custom.property.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Css.id.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Css.id.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Django.foreignKey.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Django.foreignKey.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Django.manager.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Django.manager.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/JS.base.types.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/JS.base.types.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/JS.class.implements.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/JS.class.implements.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/JS.class.super.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/JS.class.super.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/JS.custom.stub.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/JS.custom.stub.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/JS.global.qualified.elements.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/JS.global.qualified.elements.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/JS.subclass.stub.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/JS.subclass.stub.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Less.mixins.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Less.mixins.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Less.variables.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Less.variables.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Py.class.attributes.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Py.class.attributes.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Py.class.shortName.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Py.class.shortName.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Py.class.shortNameInsensitive.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Py.class.shortNameInsensitive.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Py.class.super.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Py.class.super.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Py.function.shortName.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Py.function.shortName.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Py.module.attribute.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Py.module.attribute.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Py.variable.shortName.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Py.variable.shortName.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Python.Decorator.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Python.Decorator.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Python.url.fastapi.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Python.url.fastapi.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Python.url.flask.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Python.url.flask.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Scss.function.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Scss.function.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Scss.mixin.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Scss.mixin.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Scss.placeholder.selector.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Scss.placeholder.selector.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Scss.variable.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Scss.variable.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Stylus.mixins.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Stylus.mixins.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Stylus.variables.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/Stylus.variables.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/amd.baseUrl.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/amd.baseUrl.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/amd.requirePaths.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/amd.requirePaths.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.ivy.directive.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.ivy.directive.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.ivy.module.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.ivy.module.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.ivy.pipe.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.ivy.pipe.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.metadata.className.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.metadata.className.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.metadata.directive.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.metadata.directive.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.metadata.function.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.metadata.function.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.metadata.module.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.metadata.module.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.metadata.node.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.metadata.node.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.metadata.pipe.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.metadata.pipe.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.source.directive.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.source.directive.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.source.module.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.source.module.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.source.pipe.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.source.pipe.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.templateUrl.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angular2.templateUrl.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.controller.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.controller.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.delimiter.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.delimiter.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.directives.doc.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.directives.doc.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.directives.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.directives.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.filter.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.filter.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.generic.modules.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.generic.modules.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.module.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.module.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.symbol.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.symbol.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.templateUrl.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.templateUrl.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.ui.router.generic.states.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.ui.router.generic.states.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.ui.router.states.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/angularjs.ui.router.states.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/dom.elementClass.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/dom.elementClass.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/dom.namespaceKey.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/dom.namespaceKey.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/es6.assignment.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/es6.assignment.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/es6.exported.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/es6.exported.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/ini.property.key.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/ini.property.key.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.amd.modules.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.amd.modules.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.class.index2.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.class.index2.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.doc.modules.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.doc.modules.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.element.qualifiedName.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.element.qualifiedName.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.export.default.react.component.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.export.default.react.component.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.exported.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.exported.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.gcl.modules.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.gcl.modules.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.generics.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.generics.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.global.symbol.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.global.symbol.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.imported.bindings.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.imported.bindings.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.lazy.packages.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.lazy.packages.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.local.namespace.members.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.local.namespace.members.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.namespace.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.namespace.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.nonglobal.symbol.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.nonglobal.symbol.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.qualified.shortName.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.qualified.shortName.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.symbol.index2.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.symbol.index2.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.symbol.qualified.names.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.symbol.qualified.names.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.typedef.index2.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.typedef.index2.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.used.remote.modules.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/js.used.remote.modules.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/markdown.header.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/markdown.header.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/properties.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/properties.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.class.instantiation.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.class.instantiation.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.class.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.class.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.function.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.function.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.namespace.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.namespace.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.node.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.node.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.resource.by.type.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.resource.by.type.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.resource.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.resource.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.subclass.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.subclass.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.top.variable.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.top.variable.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.type.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.type.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.variable.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/puppet.variable.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/sql.column.name.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/sql.column.name.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/sql.names.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/sql.names.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/sql.table.shortName.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/sql.table.shortName.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/ts.embedded.content.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/ts.embedded.content.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/ts.external.module.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/ts.external.module.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/ts.local.classes.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/.versions/ts.local.classes.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/Stubs.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/stubs/Stubs.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/todoindex/TodoIndex.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/todoindex/TodoIndex.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/Trigram.Index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/trigram.index/Trigram.Index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/typescriptexternalpathcandidates/TypeScriptExternalPathCandidates.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/typescriptexternalpathcandidates/TypeScriptExternalPathCandidates.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmlnamespaces/XmlNamespaces.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmlnamespaces/XmlNamespaces.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmlproperties/xmlProperties.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmlproperties/xmlProperties.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/xmltagnames/XmlTagNames.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/yaml.keys.name/yaml.keys.name.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/yaml.keys.name/yaml.keys.name.ver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/AceJump.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/Jetbrains_TeamCity_Plugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/R4Intellij.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/R4Intellij_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/cn_boz_jb_plugin_spd_editor.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/cn_boz_jb_plugin_spd_editor_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/color_scheme_GapStyle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/color_scheme_GapStyle_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_aiunng_prj_idea_plugin_string_convert.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_alibabacloud_intellij_toolkit_intellij.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_caiqichang_browser.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_cap_plugin_redis.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_chimerapps_moorinspector.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_chuntung_plugin_gistsnippet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_coasns_leetcode.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_coasns_leetcode_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_codestream_jetbrains_codestream.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_dataiku_dss_intellij.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_dataiku_dss_intellij_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_dubreuia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_dubreuia_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_github_bridgecrewio_checkov.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_github_chengpohi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_github_chengpohi_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_github_cong1223_intellijpluginyapi2ts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_github_jensim_megamanipulator.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_github_jensim_megamanipulator_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_github_jk1_ytplugin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_github_jk1_ytplugin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_github_jk1_ytplugin_dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_github_jk1_ytplugin_dark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_github_rafaelldi_tyeplugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_github_th7mo_themeo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_gmike_visual_studio_2019_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_google_gct_core.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_google_gct_core_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_herokuapp_vuesion.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_huawei_kunpeng_hyper_tuner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_huawei_kunpeng_hyper_tuner_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_illuminatedcloud2_intellij.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_intellij_lang_jsgraphql.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_intuit_intellij_makefile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_jetbrains_hackathon_pgs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_jetbrains_space.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_jetbrains_upsource.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_majera_intellij_codereview_bitbucket.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_mallowigi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_mallowigi_colorHighlighter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_markskelton_one_dark_theme.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_microsoft_vso_idea.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_perl5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_pixelperfect_bitrise_ci.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_pixelperfect_circle_ci.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_pixelperfect_gitlab_ci.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_pyfox_intellij_aonji.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_rangaofei_UrlTool.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_rangaofei_UrlTool_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_softwareco_intellij_plugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_stepsize_tech_debt_reporter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_tabnine_TabNine.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_teamscale_ide_intellij.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/com_xenoamess_x8l_idea_plugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/de_platon42_m68k.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/dev_hitools_plugin_android_template.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/dev_hitools_plugin_android_template_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/dev_mayankmkh_intellij_linear.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/dev_nocalhost_nocalhost_intellij_plugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/dev_polek_adbwifi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/dev_polek_adbwifi_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/intellij_indexing_shared.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/io_codiga_plugins_jetbrains_plugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/io_codiga_plugins_jetbrains_plugin_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/io_galagutskiy_symbol_idea_plugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/lermitage_intellij_extratci.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/lermitage_intellij_iconviewer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/lermitage_intellij_nightandday.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/lermitage_intellij_nightandday_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/mdx_js.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/mdx_js_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/name_kropp_intellij_makefile.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/name_kropp_intellij_makefile_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/net_allape_XFTP.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/net_antelle_intellij_xcode_dark_theme.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/net_antelle_intellij_xcode_dark_theme_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/net_berryh_pipe_table_formatter_intellij.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/net_berryh_pipe_table_formatter_intellij_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/net_kenro_ji_jin_intellij_purescript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/net_kenro_ji_jin_intellij_purescript_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/net_masterthought_dlanguage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/net_servicestack_ideaplugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/org_antlr_jetbrains_st4plugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/org_asciidoctor_intellij_asciidoc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/org_elixir_lang.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/org_i18nally_jetbrainsideplugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/org_i18nally_jetbrainsideplugin_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/org_jetbrains_erlang.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/org_jetbrains_fortran.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/org_jetbrains_toolbox_enterprise_client.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/org_rust_lang.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/org_sonarlint_idea.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/org_turbanov_run_configuration_as_action.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/pl_sudo_imageviewer_python.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/pl_sudo_imageviewer_python_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/pro_bashsupport.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/pro_bashsupport_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/reasonml.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/reasonml_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/riot_js.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/some_awesome.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/to_bri_intellij_clubhouse.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/to_bri_intellij_clubhouse_dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/imageCache/wallaby_js.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/meta/144916.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/meta/144916.json.etag" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/pluginsXMLIds.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/pluginsXMLIds.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/pluginsXMLIds.json.etag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/pluginsXMLIds.json.etag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/AnalyzerP.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/pylisaplugin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/patchedPluginXmlFiles/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/patchedPluginXmlFiles/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/searchableOptions/platform-api.jar/search/platform-api.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/searchableOptions/platform-api.jar/search/platform-api.jar.searchableOptions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libsSearchableOptions/lib/searchableOptions-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libsSearchableOptions/lib/searchableOptions-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libsSearchableOptions/lib/searchableOptions.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaAnnotator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaAnnotator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaInspection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaInspection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
     </list>
@@ -85,6 +342,11 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="intellij" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="pylisaplugin" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -115,6 +377,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="1zNJopykaUSrHGwdXezmzhYL16K" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -128,7 +393,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pylisa.jar" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -143,7 +407,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF/InspectionDescriptions" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.pylisaplugin [buildPlugin]">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="AnalyzerP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,6 +440,48 @@
         <option name="taskNames">
           <list>
             <option value="buildPlugin" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="pylisaplugin [buildSearchableOptions]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildSearchableOptions" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="pylisaplugin [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -295,6 +601,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.pylisaplugin [buildPlugin]" />
+        <item itemvalue="Gradle.pylisaplugin [buildSearchableOptions]" />
+        <item itemvalue="Gradle.pylisaplugin [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -335,6 +643,9 @@
       <workItem from="1636965155288" duration="67583000" />
       <workItem from="1638713876215" duration="18804000" />
       <workItem from="1639236645350" duration="230000" />
+      <workItem from="1639486246884" duration="3270000" />
+      <workItem from="1639835677353" duration="166000" />
+      <workItem from="1639835873282" duration="8341000" />
     </task>
     <task id="LOCAL-00001" summary="pylisaplugin">
       <created>1639237990673</created>
@@ -357,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639238228534</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="plugin inspections fixed">
+      <created>1639249044755</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639249044755</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,6 +696,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="n" />
     <MESSAGE value="pylisaplugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="pylisaplugin" />
+    <MESSAGE value="plugin inspections fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="plugin inspections fixed" />
   </component>
 </project>
