@@ -6,15 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="437901f4-dc15-4c81-a952-90ebf94c63f1" name="Changes" comment="plugin inspections now consider only the biggest text range per line">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main-instrumented/PyLisa/PyLisaInspection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PyLisa/PyLisaInspection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/patchedPluginXmlFiles/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/patchedPluginXmlFiles/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaInspection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaInspection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -358,7 +349,8 @@
       <workItem from="1639236645350" duration="230000" />
       <workItem from="1639486246884" duration="3270000" />
       <workItem from="1639835677353" duration="166000" />
-      <workItem from="1639835873282" duration="8446000" />
+      <workItem from="1639835873282" duration="10618000" />
+      <workItem from="1640254570059" duration="3896000" />
     </task>
     <task id="LOCAL-00001" summary="pylisaplugin">
       <created>1639237990673</created>
@@ -395,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639844292376</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="plugin inspections now consider only the biggest text range per line">
+      <created>1639844353338</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639844353338</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

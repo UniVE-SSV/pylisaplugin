@@ -11,13 +11,9 @@ import com.intellij.openapi.editor.Document;
 import com.intellij.psi.*;
 import com.jetbrains.python.psi.PyExpression;
 import com.jetbrains.python.psi.PyStatement;
-import kotlin.Pair;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class PyLisaInspection extends LocalInspectionTool {
     @Override
@@ -27,32 +23,43 @@ public class PyLisaInspection extends LocalInspectionTool {
             public void visitFile(@NotNull PsiFile pFile) {
                 Document dFile = PsiDocumentManager.getInstance(pFile.getProject()).getDocument(pFile);
                 Collection<Warning> warnings = Stub.analyze(pFile.getVirtualFile().getPath());
-                List<Pair<PsiElement, Integer>> pPairs = new ArrayList<>();
-                List<Pair<PsiElement, Integer>> pUsefulPairs;
+
+                //Map that links a line of the document with a Set of PsiElements
+                Map<Integer, Set<PsiElement>> pMap = new HashMap<>();
+
+                //List of the pElements with the longest TextLenght for each line of the document
+                List<PsiElement> pElements = new ArrayList<>();
 
                 assert (dFile != null);
 
-                //Adding the PsiElement useful for the analysis
+                //Adding the PsiElements useful for the analysis
                 pFile.accept(new PsiRecursiveElementWalkingVisitor() {
                     @Override
                     public void visitElement(@NotNull PsiElement pElement) {
                         super.visitElement(pElement);
 
-                        //pElement deve iniziare e finire nella stessa riga per essere sottolineato
+                        //The pElement has to start and end in the same line
                         final int sLine = dFile.getLineNumber(pElement.getTextRange().getStartOffset());
                         final int eLine = dFile.getLineNumber(pElement.getTextRange().getEndOffset());
 
-                        if ((pElement instanceof PyStatement || pElement instanceof PyExpression) && sLine == eLine)
-                            pPairs.add(new Pair<>(pElement, sLine));
+                        if ((pElement instanceof PyStatement || pElement instanceof PyExpression) && sLine == eLine){
+                            pMap.computeIfAbsent(sLine, k -> new HashSet<>());
+                            pMap.get(sLine).add(pElement);
+                        }
                     }
                 });
 
-                pUsefulPairs = new ArrayList<>(pPairs);
-                Collections.copy(pUsefulPairs, pPairs);
+                //For each key in the Map
+                for(Integer key : pMap.keySet()) {
+                    PsiElement p = null;
 
-                for (Pair<PsiElement, Integer> p : pPairs) {
-                    //se i text length sono uguali li sottolineo tutti e due
-                    pUsefulPairs.removeIf(a -> a.getSecond().equals(p.getSecond()) && a.getFirst().getTextLength() < p.getFirst().getTextLength());
+                    for(PsiElement e : pMap.get(key)) {
+                        if(p == null || p.getTextLength() < e.getTextLength())
+                            p = e;
+                    }
+
+                    if(p != null)
+                        pElements.add(p);
                 }
 
                 //For each Warning
@@ -60,12 +67,21 @@ public class PyLisaInspection extends LocalInspectionTool {
                     if ((e instanceof WarningWithLocation) && (((WarningWithLocation) e).getLocation() instanceof SourceCodeLocation)) {
                         final int wLine = ((SourceCodeLocation) ((WarningWithLocation) e).getLocation()).getLine();
 
-                        for (Pair<PsiElement, Integer> p : pUsefulPairs)
-                            if (wLine == p.getSecond())
-                                pHolder.registerProblem(p.getFirst(), e.getMessage(), (LocalQuickFix) null);
+                        for (PsiElement pElement : pElements)
+                            if (wLine == dFile.getLineNumber(pElement.getTextRange().getStartOffset()))
+                                pHolder.registerProblem(pElement, e.getMessage(), (LocalQuickFix) null);
                     }
                 }
             }
         };
     };
+
+    //TODO Javadoc e commenti
+
+    //prima parte: introduzione con spiegazione di cosa devo fare: analizzo codice python tramite un plugin su pycharm etc
+    //seconda parte: componenti tecniche che precedono lo sviluppo del mio plugin, pylisa con errori e warning
+    //terza parte: come ho sviluppato il plugin con trials and errors ed i miei approcci e limiti tecnici
+    //quarta parte: risultati sperimentali
+
+    //Febbraio 14 call 16:30-17:30
 }
