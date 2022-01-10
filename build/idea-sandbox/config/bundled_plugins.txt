@@ -21,7 +21,6 @@ org.jetbrains.plugins.wsl|null
 org.jetbrains.plugins.vagrant|Deployment
 com.jetbrains.plugins.webDeployment|Deployment
 com.jetbrains.plugins.ini4idea|Languages
-com.jetbrains.performancePlugin|Other Tools
 com.jetbrains.gateway|Remote Development
 com.jetbrains.gateway.terminal|null
 com.jetbrains.codeWithMe|null
@@ -46,6 +45,7 @@ org.jetbrains.plugins.less|Style Sheets
 com.intellij.configurationScript|null
 com.intellij.completion.ml.ranking|Other Tools
 com.intellij.CloudConfig|IDE Settings
+com.jetbrains.performancePlugin|Other Tools
 intellij.indexing.shared.core|null
 com.jetbrains.pycharm.pro.sharedIndexes.bundled|null
 com.jetbrains.performancePlugin.dynamicPlugins|null

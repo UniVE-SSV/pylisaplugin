@@ -1,6 +1,6 @@
 <idea-plugin>
   <version>0.1b3</version>
-  <idea-version since-build="213.5744" until-build="213.*" />
+  <idea-version since-build="213.6461" until-build="213.*" />
   <id>ml.PyLisa</id>
   <name>PyLisa</name>
   <vendor>ml</vendor>

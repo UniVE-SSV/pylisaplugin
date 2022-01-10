@@ -113,22 +113,6 @@
     <option name="trusted" hit="Trusted Locations" />
   </configurable>
   <configurable id="application.passwordSafe" configurable_name="Passwords">
-    <option name="" hit=" Stored using weak encryption. It is recommended to store on encrypted volume for additional security." />
-    <option name="additional" hit=" Stored using weak encryption. It is recommended to store on encrypted volume for additional security." />
-    <option name="encrypted" hit=" Stored using weak encryption. It is recommended to store on encrypted volume for additional security." />
-    <option name="encryption" hit=" Stored using weak encryption. It is recommended to store on encrypted volume for additional security." />
-    <option name="for" hit=" Stored using weak encryption. It is recommended to store on encrypted volume for additional security." />
-    <option name="is" hit=" Stored using weak encryption. It is recommended to store on encrypted volume for additional security." />
-    <option name="it" hit=" Stored using weak encryption. It is recommended to store on encrypted volume for additional security." />
-    <option name="on" hit=" Stored using weak encryption. It is recommended to store on encrypted volume for additional security." />
-    <option name="recommended" hit=" Stored using weak encryption. It is recommended to store on encrypted volume for additional security." />
-    <option name="security" hit=" Stored using weak encryption. It is recommended to store on encrypted volume for additional security." />
-    <option name="store" hit=" Stored using weak encryption. It is recommended to store on encrypted volume for additional security." />
-    <option name="stored" hit=" Stored using weak encryption. It is recommended to store on encrypted volume for additional security." />
-    <option name="to" hit=" Stored using weak encryption. It is recommended to store on encrypted volume for additional security." />
-    <option name="using" hit=" Stored using weak encryption. It is recommended to store on encrypted volume for additional security." />
-    <option name="volume" hit=" Stored using weak encryption. It is recommended to store on encrypted volume for additional security." />
-    <option name="weak" hit=" Stored using weak encryption. It is recommended to store on encrypted volume for additional security." />
     <option name="database" hit="Database:" />
     <option name="after" hit="Do not save, forget passwords after restart" />
     <option name="do" hit="Do not save, forget passwords after restart" />
@@ -244,16 +228,6 @@
     <option name="seconds" hit="seconds" />
   </configurable>
   <configurable id="preferences.lookFeel" configurable_name="Appearance">
-    <option name="" hit=" Requires restart" />
-    <option name="requires" hit=" Requires restart" />
-    <option name="restart" hit=" Requires restart" />
-    <option name="" hit=" Requires restart. For protanopia and deuteranopia." />
-    <option name="and" hit=" Requires restart. For protanopia and deuteranopia." />
-    <option name="deuteranopia" hit=" Requires restart. For protanopia and deuteranopia." />
-    <option name="for" hit=" Requires restart. For protanopia and deuteranopia." />
-    <option name="protanopia" hit=" Requires restart. For protanopia and deuteranopia." />
-    <option name="requires" hit=" Requires restart. For protanopia and deuteranopia." />
-    <option name="restart" hit=" Requires restart. For protanopia and deuteranopia." />
     <option name="accessibility" hit="Accessibility" />
     <option name="adjust" hit="Adjust colors for red-green vision deficiency" />
     <option name="colors" hit="Adjust colors for red-green vision deficiency" />
@@ -4487,6 +4461,11 @@
     <option name="bookmark" path="ActionManager" hit="Next Line Bookmark" />
     <option name="line" path="ActionManager" hit="Next Line Bookmark" />
     <option name="next" path="ActionManager" hit="Next Line Bookmark" />
+    <option name="bookmark" path="ActionManager" hit="Next Line Bookmark in Editor" />
+    <option name="editor" path="ActionManager" hit="Next Line Bookmark in Editor" />
+    <option name="in" path="ActionManager" hit="Next Line Bookmark in Editor" />
+    <option name="line" path="ActionManager" hit="Next Line Bookmark in Editor" />
+    <option name="next" path="ActionManager" hit="Next Line Bookmark in Editor" />
     <option name="method" path="ActionManager" hit="Next Method" />
     <option name="next" path="ActionManager" hit="Next Method" />
     <option name="next" path="ActionManager" hit="Next Occurrence" />
@@ -5091,6 +5070,11 @@
     <option name="bookmark" path="ActionManager" hit="Previous Line Bookmark" />
     <option name="line" path="ActionManager" hit="Previous Line Bookmark" />
     <option name="previous" path="ActionManager" hit="Previous Line Bookmark" />
+    <option name="bookmark" path="ActionManager" hit="Previous Line Bookmark in Editor" />
+    <option name="editor" path="ActionManager" hit="Previous Line Bookmark in Editor" />
+    <option name="in" path="ActionManager" hit="Previous Line Bookmark in Editor" />
+    <option name="line" path="ActionManager" hit="Previous Line Bookmark in Editor" />
+    <option name="previous" path="ActionManager" hit="Previous Line Bookmark in Editor" />
     <option name="method" path="ActionManager" hit="Previous Method" />
     <option name="previous" path="ActionManager" hit="Previous Method" />
     <option name="occurrence" path="ActionManager" hit="Previous Occurrence" />
@@ -6749,11 +6733,6 @@
     <option name="show" path="ActionManager" hit="Show Members" />
     <option name="modules" path="ActionManager" hit="Show Modules" />
     <option name="show" path="ActionManager" hit="Show Modules" />
-    <option name="dialog" path="ActionManager" hit="Show New Project Feedback Dialog" />
-    <option name="feedback" path="ActionManager" hit="Show New Project Feedback Dialog" />
-    <option name="new" path="ActionManager" hit="Show New Project Feedback Dialog" />
-    <option name="project" path="ActionManager" hit="Show New Project Feedback Dialog" />
-    <option name="show" path="ActionManager" hit="Show New Project Feedback Dialog" />
     <option name="images" path="ActionManager" hit="Show Non Retina Images" />
     <option name="non" path="ActionManager" hit="Show Non Retina Images" />
     <option name="retina" path="ActionManager" hit="Show Non Retina Images" />
@@ -7360,8 +7339,11 @@
     <option name="preview" path="ActionManager" hit="Soft-Wrap Preview Editor" />
     <option name="soft" path="ActionManager" hit="Soft-Wrap Preview Editor" />
     <option name="wrap" path="ActionManager" hit="Soft-Wrap Preview Editor" />
-    <option name="bookmarks" path="ActionManager" hit="Sort Bookmarks" />
-    <option name="sort" path="ActionManager" hit="Sort Bookmarks" />
+    <option name="bookmarks" path="ActionManager" hit="Sort Bookmarks by Type &amp; Name" />
+    <option name="by" path="ActionManager" hit="Sort Bookmarks by Type &amp; Name" />
+    <option name="name" path="ActionManager" hit="Sort Bookmarks by Type &amp; Name" />
+    <option name="sort" path="ActionManager" hit="Sort Bookmarks by Type &amp; Name" />
+    <option name="type" path="ActionManager" hit="Sort Bookmarks by Type &amp; Name" />
     <option name="lines" path="ActionManager" hit="Sort Lines" />
     <option name="sort" path="ActionManager" hit="Sort Lines" />
     <option name="alphabetically" path="ActionManager" hit="Sort Variables Alphabetically" />
@@ -8333,7 +8315,6 @@
     <option name="unsplit" path="ActionManager" hit="Unsplit All" />
     <option name="unsplit" path="ActionManager" hit="Unsplit Window" />
     <option name="window" path="ActionManager" hit="Unsplit Window" />
-    <option name="unsure" path="ActionManager" hit="Unsure" />
     <option name="remove" path="ActionManager" hit="Unwrap/Remove…" />
     <option name="unwrap" path="ActionManager" hit="Unwrap/Remove…" />
     <option name="up" path="ActionManager" hit="Up" />
@@ -8642,16 +8623,6 @@
     <option name="usage" hit="Send usage statistics" />
   </configurable>
   <configurable id="ide.date.format" configurable_name="Date Formats">
-    <option name="" hit=" Replace numeric date with Today, Yesterday, and 10 minutes ago" />
-    <option name="ago" hit=" Replace numeric date with Today, Yesterday, and 10 minutes ago" />
-    <option name="and" hit=" Replace numeric date with Today, Yesterday, and 10 minutes ago" />
-    <option name="date" hit=" Replace numeric date with Today, Yesterday, and 10 minutes ago" />
-    <option name="minutes" hit=" Replace numeric date with Today, Yesterday, and 10 minutes ago" />
-    <option name="numeric" hit=" Replace numeric date with Today, Yesterday, and 10 minutes ago" />
-    <option name="replace" hit=" Replace numeric date with Today, Yesterday, and 10 minutes ago" />
-    <option name="today" hit=" Replace numeric date with Today, Yesterday, and 10 minutes ago" />
-    <option name="with" hit=" Replace numeric date with Today, Yesterday, and 10 minutes ago" />
-    <option name="yesterday" hit=" Replace numeric date with Today, Yesterday, and 10 minutes ago" />
     <option name="date" hit="Date Formats" />
     <option name="formats" hit="Date Formats" />
     <option name="date" hit="Date format:" />
@@ -8672,9 +8643,6 @@
     <option name="use" hit="Use pretty formatting" />
   </configurable>
   <configurable id="preferences.updates" configurable_name="Updates">
-    <option name="" hit=" PY-213.5744.248 November 30, 2021" />
-    <option name="november" hit=" PY-213.5744.248 November 30, 2021" />
-    <option name="py" hit=" PY-213.5744.248 November 30, 2021" />
     <option name="check" hit="Check IDE updates for:" />
     <option name="for" hit="Check IDE updates for:" />
     <option name="ide" hit="Check IDE updates for:" />
@@ -8687,9 +8655,9 @@
     <option name="for" hit="Check for plugin updates" />
     <option name="plugin" hit="Check for plugin updates" />
     <option name="updates" hit="Check for plugin updates" />
-    <option name="current" hit="Current version: PyCharm 2021.3" />
-    <option name="pycharm" hit="Current version: PyCharm 2021.3" />
-    <option name="version" hit="Current version: PyCharm 2021.3" />
+    <option name="current" hit="Current version: PyCharm 2021.3.1" />
+    <option name="pycharm" hit="Current version: PyCharm 2021.3.1" />
+    <option name="version" hit="Current version: PyCharm 2021.3.1" />
     <option name="access" hit="Early Access Program" />
     <option name="early" hit="Early Access Program" />
     <option name="program" hit="Early Access Program" />
@@ -8708,9 +8676,6 @@
     <option name="updates" hit="Get updates automatically, open your projects with one click, discover other JetBrains products, and more" />
     <option name="with" hit="Get updates automatically, open your projects with one click, discover other JetBrains products, and more" />
     <option name="your" hit="Get updates automatically, open your projects with one click, discover other JetBrains products, and more" />
-    <option name="checked" hit="Last checked: Never" />
-    <option name="last" hit="Last checked: Never" />
-    <option name="never" hit="Last checked: Never" />
     <option name="releases" hit="Stable Releases" />
     <option name="stable" hit="Stable Releases" />
     <option name="app" hit="Toolbox App" />
@@ -8727,16 +8692,6 @@
     <option name="in" hit="  defined in the color scheme" />
     <option name="scheme" hit="  defined in the color scheme" />
     <option name="the" hit="  defined in the color scheme" />
-    <option name="" hit=" Used for symbols not supported by the main font" />
-    <option name="by" hit=" Used for symbols not supported by the main font" />
-    <option name="font" hit=" Used for symbols not supported by the main font" />
-    <option name="for" hit=" Used for symbols not supported by the main font" />
-    <option name="main" hit=" Used for symbols not supported by the main font" />
-    <option name="not" hit=" Used for symbols not supported by the main font" />
-    <option name="supported" hit=" Used for symbols not supported by the main font" />
-    <option name="symbols" hit=" Used for symbols not supported by the main font" />
-    <option name="the" hit=" Used for symbols not supported by the main font" />
-    <option name="used" hit=" Used for symbols not supported by the main font" />
     <option name="bold" hit="Bold weight:" />
     <option name="weight" hit="Bold weight:" />
     <option name="enable" hit="Enable ligatures" />
@@ -8826,306 +8781,6 @@
     <option name="web" hit="Web Browsers and Preview" />
   </configurable>
   <configurable id="advanced.settings" configurable_name="Advanced Settings">
-    <option name="" hit=" Change shortcut symbols  ,  ,  , and others to Esc, Backspace, Option, etc" />
-    <option name="and" hit=" Change shortcut symbols  ,  ,  , and others to Esc, Backspace, Option, etc" />
-    <option name="backspace" hit=" Change shortcut symbols  ,  ,  , and others to Esc, Backspace, Option, etc" />
-    <option name="change" hit=" Change shortcut symbols  ,  ,  , and others to Esc, Backspace, Option, etc" />
-    <option name="esc" hit=" Change shortcut symbols  ,  ,  , and others to Esc, Backspace, Option, etc" />
-    <option name="etc" hit=" Change shortcut symbols  ,  ,  , and others to Esc, Backspace, Option, etc" />
-    <option name="option" hit=" Change shortcut symbols  ,  ,  , and others to Esc, Backspace, Option, etc" />
-    <option name="others" hit=" Change shortcut symbols  ,  ,  , and others to Esc, Backspace, Option, etc" />
-    <option name="shortcut" hit=" Change shortcut symbols  ,  ,  , and others to Esc, Backspace, Option, etc" />
-    <option name="symbols" hit=" Change shortcut symbols  ,  ,  , and others to Esc, Backspace, Option, etc" />
-    <option name="to" hit=" Change shortcut symbols  ,  ,  , and others to Esc, Backspace, Option, etc" />
-    <option name="" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="as" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="become" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="control" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="corrupted" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="do" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="hangs" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="history" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="ide" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="if" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="it" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="local" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="may" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="not" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="primary" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="since" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="system" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="the" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="use" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="version" hit=" Do not use Local History as the primary version control system since it may become corrupted if the IDE hangs" />
-    <option name="" hit=" Force Git to use Windows certificate store to verify SSL connections. Works for Git 2.14 and above." />
-    <option name="above" hit=" Force Git to use Windows certificate store to verify SSL connections. Works for Git 2.14 and above." />
-    <option name="and" hit=" Force Git to use Windows certificate store to verify SSL connections. Works for Git 2.14 and above." />
-    <option name="certificate" hit=" Force Git to use Windows certificate store to verify SSL connections. Works for Git 2.14 and above." />
-    <option name="connections" hit=" Force Git to use Windows certificate store to verify SSL connections. Works for Git 2.14 and above." />
-    <option name="for" hit=" Force Git to use Windows certificate store to verify SSL connections. Works for Git 2.14 and above." />
-    <option name="force" hit=" Force Git to use Windows certificate store to verify SSL connections. Works for Git 2.14 and above." />
-    <option name="git" hit=" Force Git to use Windows certificate store to verify SSL connections. Works for Git 2.14 and above." />
-    <option name="ssl" hit=" Force Git to use Windows certificate store to verify SSL connections. Works for Git 2.14 and above." />
-    <option name="store" hit=" Force Git to use Windows certificate store to verify SSL connections. Works for Git 2.14 and above." />
-    <option name="to" hit=" Force Git to use Windows certificate store to verify SSL connections. Works for Git 2.14 and above." />
-    <option name="use" hit=" Force Git to use Windows certificate store to verify SSL connections. Works for Git 2.14 and above." />
-    <option name="verify" hit=" Force Git to use Windows certificate store to verify SSL connections. Works for Git 2.14 and above." />
-    <option name="windows" hit=" Force Git to use Windows certificate store to verify SSL connections. Works for Git 2.14 and above." />
-    <option name="works" hit=" Force Git to use Windows certificate store to verify SSL connections. Works for Git 2.14 and above." />
-    <option name="" hit=" Hide commit panel and checkboxes after commit is performed and allow toggling commit UI in Local Changes" />
-    <option name="after" hit=" Hide commit panel and checkboxes after commit is performed and allow toggling commit UI in Local Changes" />
-    <option name="allow" hit=" Hide commit panel and checkboxes after commit is performed and allow toggling commit UI in Local Changes" />
-    <option name="and" hit=" Hide commit panel and checkboxes after commit is performed and allow toggling commit UI in Local Changes" />
-    <option name="changes" hit=" Hide commit panel and checkboxes after commit is performed and allow toggling commit UI in Local Changes" />
-    <option name="checkboxes" hit=" Hide commit panel and checkboxes after commit is performed and allow toggling commit UI in Local Changes" />
-    <option name="commit" hit=" Hide commit panel and checkboxes after commit is performed and allow toggling commit UI in Local Changes" />
-    <option name="hide" hit=" Hide commit panel and checkboxes after commit is performed and allow toggling commit UI in Local Changes" />
-    <option name="in" hit=" Hide commit panel and checkboxes after commit is performed and allow toggling commit UI in Local Changes" />
-    <option name="is" hit=" Hide commit panel and checkboxes after commit is performed and allow toggling commit UI in Local Changes" />
-    <option name="local" hit=" Hide commit panel and checkboxes after commit is performed and allow toggling commit UI in Local Changes" />
-    <option name="panel" hit=" Hide commit panel and checkboxes after commit is performed and allow toggling commit UI in Local Changes" />
-    <option name="performed" hit=" Hide commit panel and checkboxes after commit is performed and allow toggling commit UI in Local Changes" />
-    <option name="toggling" hit=" Hide commit panel and checkboxes after commit is performed and allow toggling commit UI in Local Changes" />
-    <option name="ui" hit=" Hide commit panel and checkboxes after commit is performed and allow toggling commit UI in Local Changes" />
-    <option name="" hit=" If enabled, use editor tabs instead of frame windows to show Diff" />
-    <option name="diff" hit=" If enabled, use editor tabs instead of frame windows to show Diff" />
-    <option name="editor" hit=" If enabled, use editor tabs instead of frame windows to show Diff" />
-    <option name="enabled" hit=" If enabled, use editor tabs instead of frame windows to show Diff" />
-    <option name="frame" hit=" If enabled, use editor tabs instead of frame windows to show Diff" />
-    <option name="if" hit=" If enabled, use editor tabs instead of frame windows to show Diff" />
-    <option name="instead" hit=" If enabled, use editor tabs instead of frame windows to show Diff" />
-    <option name="of" hit=" If enabled, use editor tabs instead of frame windows to show Diff" />
-    <option name="show" hit=" If enabled, use editor tabs instead of frame windows to show Diff" />
-    <option name="tabs" hit=" If enabled, use editor tabs instead of frame windows to show Diff" />
-    <option name="to" hit=" If enabled, use editor tabs instead of frame windows to show Diff" />
-    <option name="use" hit=" If enabled, use editor tabs instead of frame windows to show Diff" />
-    <option name="windows" hit=" If enabled, use editor tabs instead of frame windows to show Diff" />
-    <option name="" hit=" Increasing this limit can significantly increase IDE memory usage" />
-    <option name="can" hit=" Increasing this limit can significantly increase IDE memory usage" />
-    <option name="ide" hit=" Increasing this limit can significantly increase IDE memory usage" />
-    <option name="increase" hit=" Increasing this limit can significantly increase IDE memory usage" />
-    <option name="increasing" hit=" Increasing this limit can significantly increase IDE memory usage" />
-    <option name="limit" hit=" Increasing this limit can significantly increase IDE memory usage" />
-    <option name="memory" hit=" Increasing this limit can significantly increase IDE memory usage" />
-    <option name="significantly" hit=" Increasing this limit can significantly increase IDE memory usage" />
-    <option name="this" hit=" Increasing this limit can significantly increase IDE memory usage" />
-    <option name="usage" hit=" Increasing this limit can significantly increase IDE memory usage" />
-    <option name="" hit=" Increasing this limit will negatively affect editor performance" />
-    <option name="affect" hit=" Increasing this limit will negatively affect editor performance" />
-    <option name="editor" hit=" Increasing this limit will negatively affect editor performance" />
-    <option name="increasing" hit=" Increasing this limit will negatively affect editor performance" />
-    <option name="limit" hit=" Increasing this limit will negatively affect editor performance" />
-    <option name="negatively" hit=" Increasing this limit will negatively affect editor performance" />
-    <option name="performance" hit=" Increasing this limit will negatively affect editor performance" />
-    <option name="this" hit=" Increasing this limit will negatively affect editor performance" />
-    <option name="will" hit=" Increasing this limit will negatively affect editor performance" />
-    <option name="" hit=" On macOS, the icon can be used to drag a file to a different application" />
-    <option name="a" hit=" On macOS, the icon can be used to drag a file to a different application" />
-    <option name="application" hit=" On macOS, the icon can be used to drag a file to a different application" />
-    <option name="be" hit=" On macOS, the icon can be used to drag a file to a different application" />
-    <option name="can" hit=" On macOS, the icon can be used to drag a file to a different application" />
-    <option name="different" hit=" On macOS, the icon can be used to drag a file to a different application" />
-    <option name="drag" hit=" On macOS, the icon can be used to drag a file to a different application" />
-    <option name="file" hit=" On macOS, the icon can be used to drag a file to a different application" />
-    <option name="icon" hit=" On macOS, the icon can be used to drag a file to a different application" />
-    <option name="macos" hit=" On macOS, the icon can be used to drag a file to a different application" />
-    <option name="on" hit=" On macOS, the icon can be used to drag a file to a different application" />
-    <option name="the" hit=" On macOS, the icon can be used to drag a file to a different application" />
-    <option name="to" hit=" On macOS, the icon can be used to drag a file to a different application" />
-    <option name="used" hit=" On macOS, the icon can be used to drag a file to a different application" />
-    <option name="" hit=" Preselect all repositories with commits to be pushed by default" />
-    <option name="all" hit=" Preselect all repositories with commits to be pushed by default" />
-    <option name="be" hit=" Preselect all repositories with commits to be pushed by default" />
-    <option name="by" hit=" Preselect all repositories with commits to be pushed by default" />
-    <option name="commits" hit=" Preselect all repositories with commits to be pushed by default" />
-    <option name="default" hit=" Preselect all repositories with commits to be pushed by default" />
-    <option name="preselect" hit=" Preselect all repositories with commits to be pushed by default" />
-    <option name="pushed" hit=" Preselect all repositories with commits to be pushed by default" />
-    <option name="repositories" hit=" Preselect all repositories with commits to be pushed by default" />
-    <option name="to" hit=" Preselect all repositories with commits to be pushed by default" />
-    <option name="with" hit=" Preselect all repositories with commits to be pushed by default" />
-    <option name="" hit=" Request the list of the ignored files from the VCS and show their status in the IDE" />
-    <option name="and" hit=" Request the list of the ignored files from the VCS and show their status in the IDE" />
-    <option name="files" hit=" Request the list of the ignored files from the VCS and show their status in the IDE" />
-    <option name="from" hit=" Request the list of the ignored files from the VCS and show their status in the IDE" />
-    <option name="ide" hit=" Request the list of the ignored files from the VCS and show their status in the IDE" />
-    <option name="ignored" hit=" Request the list of the ignored files from the VCS and show their status in the IDE" />
-    <option name="in" hit=" Request the list of the ignored files from the VCS and show their status in the IDE" />
-    <option name="list" hit=" Request the list of the ignored files from the VCS and show their status in the IDE" />
-    <option name="of" hit=" Request the list of the ignored files from the VCS and show their status in the IDE" />
-    <option name="request" hit=" Request the list of the ignored files from the VCS and show their status in the IDE" />
-    <option name="show" hit=" Request the list of the ignored files from the VCS and show their status in the IDE" />
-    <option name="status" hit=" Request the list of the ignored files from the VCS and show their status in the IDE" />
-    <option name="the" hit=" Request the list of the ignored files from the VCS and show their status in the IDE" />
-    <option name="their" hit=" Request the list of the ignored files from the VCS and show their status in the IDE" />
-    <option name="vcs" hit=" Request the list of the ignored files from the VCS and show their status in the IDE" />
-    <option name="" hit=" Requires IDE restart" />
-    <option name="ide" hit=" Requires IDE restart" />
-    <option name="requires" hit=" Requires IDE restart" />
-    <option name="restart" hit=" Requires IDE restart" />
-    <option name="" hit=" Select the last element when pressing Up on the first element, and vice versa" />
-    <option name="and" hit=" Select the last element when pressing Up on the first element, and vice versa" />
-    <option name="element" hit=" Select the last element when pressing Up on the first element, and vice versa" />
-    <option name="first" hit=" Select the last element when pressing Up on the first element, and vice versa" />
-    <option name="last" hit=" Select the last element when pressing Up on the first element, and vice versa" />
-    <option name="on" hit=" Select the last element when pressing Up on the first element, and vice versa" />
-    <option name="pressing" hit=" Select the last element when pressing Up on the first element, and vice versa" />
-    <option name="select" hit=" Select the last element when pressing Up on the first element, and vice versa" />
-    <option name="the" hit=" Select the last element when pressing Up on the first element, and vice versa" />
-    <option name="up" hit=" Select the last element when pressing Up on the first element, and vice versa" />
-    <option name="versa" hit=" Select the last element when pressing Up on the first element, and vice versa" />
-    <option name="vice" hit=" Select the last element when pressing Up on the first element, and vice versa" />
-    <option name="when" hit=" Select the last element when pressing Up on the first element, and vice versa" />
-    <option name="" hit=" Shift-Shift for Search Everywhere, Ctrl-Ctrl for Run Anything" />
-    <option name="anything" hit=" Shift-Shift for Search Everywhere, Ctrl-Ctrl for Run Anything" />
-    <option name="ctrl" hit=" Shift-Shift for Search Everywhere, Ctrl-Ctrl for Run Anything" />
-    <option name="everywhere" hit=" Shift-Shift for Search Everywhere, Ctrl-Ctrl for Run Anything" />
-    <option name="for" hit=" Shift-Shift for Search Everywhere, Ctrl-Ctrl for Run Anything" />
-    <option name="run" hit=" Shift-Shift for Search Everywhere, Ctrl-Ctrl for Run Anything" />
-    <option name="search" hit=" Shift-Shift for Search Everywhere, Ctrl-Ctrl for Run Anything" />
-    <option name="shift" hit=" Shift-Shift for Search Everywhere, Ctrl-Ctrl for Run Anything" />
-    <option name="" hit=" Show the Local Changes and Shelf tabs in the separate Commit tool window" />
-    <option name="and" hit=" Show the Local Changes and Shelf tabs in the separate Commit tool window" />
-    <option name="changes" hit=" Show the Local Changes and Shelf tabs in the separate Commit tool window" />
-    <option name="commit" hit=" Show the Local Changes and Shelf tabs in the separate Commit tool window" />
-    <option name="in" hit=" Show the Local Changes and Shelf tabs in the separate Commit tool window" />
-    <option name="local" hit=" Show the Local Changes and Shelf tabs in the separate Commit tool window" />
-    <option name="separate" hit=" Show the Local Changes and Shelf tabs in the separate Commit tool window" />
-    <option name="shelf" hit=" Show the Local Changes and Shelf tabs in the separate Commit tool window" />
-    <option name="show" hit=" Show the Local Changes and Shelf tabs in the separate Commit tool window" />
-    <option name="tabs" hit=" Show the Local Changes and Shelf tabs in the separate Commit tool window" />
-    <option name="the" hit=" Show the Local Changes and Shelf tabs in the separate Commit tool window" />
-    <option name="tool" hit=" Show the Local Changes and Shelf tabs in the separate Commit tool window" />
-    <option name="window" hit=" Show the Local Changes and Shelf tabs in the separate Commit tool window" />
-    <option name="" hit=" Specify -1 to use automatically calculated margin (centering the editor)" />
-    <option name="automatically" hit=" Specify -1 to use automatically calculated margin (centering the editor)" />
-    <option name="calculated" hit=" Specify -1 to use automatically calculated margin (centering the editor)" />
-    <option name="centering" hit=" Specify -1 to use automatically calculated margin (centering the editor)" />
-    <option name="editor" hit=" Specify -1 to use automatically calculated margin (centering the editor)" />
-    <option name="margin" hit=" Specify -1 to use automatically calculated margin (centering the editor)" />
-    <option name="specify" hit=" Specify -1 to use automatically calculated margin (centering the editor)" />
-    <option name="the" hit=" Specify -1 to use automatically calculated margin (centering the editor)" />
-    <option name="to" hit=" Specify -1 to use automatically calculated margin (centering the editor)" />
-    <option name="use" hit=" Specify -1 to use automatically calculated margin (centering the editor)" />
-    <option name="" hit=" This allows showing them faster on demand" />
-    <option name="allows" hit=" This allows showing them faster on demand" />
-    <option name="demand" hit=" This allows showing them faster on demand" />
-    <option name="faster" hit=" This allows showing them faster on demand" />
-    <option name="on" hit=" This allows showing them faster on demand" />
-    <option name="showing" hit=" This allows showing them faster on demand" />
-    <option name="them" hit=" This allows showing them faster on demand" />
-    <option name="this" hit=" This allows showing them faster on demand" />
-    <option name="" hit=" Update branches info that have incoming/outgoing commits in the Branches popup" />
-    <option name="branches" hit=" Update branches info that have incoming/outgoing commits in the Branches popup" />
-    <option name="commits" hit=" Update branches info that have incoming/outgoing commits in the Branches popup" />
-    <option name="have" hit=" Update branches info that have incoming/outgoing commits in the Branches popup" />
-    <option name="in" hit=" Update branches info that have incoming/outgoing commits in the Branches popup" />
-    <option name="incoming" hit=" Update branches info that have incoming/outgoing commits in the Branches popup" />
-    <option name="info" hit=" Update branches info that have incoming/outgoing commits in the Branches popup" />
-    <option name="outgoing" hit=" Update branches info that have incoming/outgoing commits in the Branches popup" />
-    <option name="popup" hit=" Update branches info that have incoming/outgoing commits in the Branches popup" />
-    <option name="that" hit=" Update branches info that have incoming/outgoing commits in the Branches popup" />
-    <option name="the" hit=" Update branches info that have incoming/outgoing commits in the Branches popup" />
-    <option name="update" hit=" Update branches info that have incoming/outgoing commits in the Branches popup" />
-    <option name="" hit=" Use '--filters' or '--textconv' flags for 'git cat-file' command when reading file content from Git" />
-    <option name="cat" hit=" Use '--filters' or '--textconv' flags for 'git cat-file' command when reading file content from Git" />
-    <option name="command" hit=" Use '--filters' or '--textconv' flags for 'git cat-file' command when reading file content from Git" />
-    <option name="content" hit=" Use '--filters' or '--textconv' flags for 'git cat-file' command when reading file content from Git" />
-    <option name="file" hit=" Use '--filters' or '--textconv' flags for 'git cat-file' command when reading file content from Git" />
-    <option name="filters" hit=" Use '--filters' or '--textconv' flags for 'git cat-file' command when reading file content from Git" />
-    <option name="flags" hit=" Use '--filters' or '--textconv' flags for 'git cat-file' command when reading file content from Git" />
-    <option name="for" hit=" Use '--filters' or '--textconv' flags for 'git cat-file' command when reading file content from Git" />
-    <option name="from" hit=" Use '--filters' or '--textconv' flags for 'git cat-file' command when reading file content from Git" />
-    <option name="git" hit=" Use '--filters' or '--textconv' flags for 'git cat-file' command when reading file content from Git" />
-    <option name="or" hit=" Use '--filters' or '--textconv' flags for 'git cat-file' command when reading file content from Git" />
-    <option name="reading" hit=" Use '--filters' or '--textconv' flags for 'git cat-file' command when reading file content from Git" />
-    <option name="textconv" hit=" Use '--filters' or '--textconv' flags for 'git cat-file' command when reading file content from Git" />
-    <option name="use" hit=" Use '--filters' or '--textconv' flags for 'git cat-file' command when reading file content from Git" />
-    <option name="when" hit=" Use '--filters' or '--textconv' flags for 'git cat-file' command when reading file content from Git" />
-    <option name="" hit=" Use '--force-with-lease' when calling force push from IDE instead of just '--force'" />
-    <option name="calling" hit=" Use '--force-with-lease' when calling force push from IDE instead of just '--force'" />
-    <option name="force" hit=" Use '--force-with-lease' when calling force push from IDE instead of just '--force'" />
-    <option name="from" hit=" Use '--force-with-lease' when calling force push from IDE instead of just '--force'" />
-    <option name="ide" hit=" Use '--force-with-lease' when calling force push from IDE instead of just '--force'" />
-    <option name="instead" hit=" Use '--force-with-lease' when calling force push from IDE instead of just '--force'" />
-    <option name="just" hit=" Use '--force-with-lease' when calling force push from IDE instead of just '--force'" />
-    <option name="lease" hit=" Use '--force-with-lease' when calling force push from IDE instead of just '--force'" />
-    <option name="of" hit=" Use '--force-with-lease' when calling force push from IDE instead of just '--force'" />
-    <option name="push" hit=" Use '--force-with-lease' when calling force push from IDE instead of just '--force'" />
-    <option name="use" hit=" Use '--force-with-lease' when calling force push from IDE instead of just '--force'" />
-    <option name="when" hit=" Use '--force-with-lease' when calling force push from IDE instead of just '--force'" />
-    <option name="with" hit=" Use '--force-with-lease' when calling force push from IDE instead of just '--force'" />
-    <option name="" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="all" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="any" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="are" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="calls" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="checkout" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="clone" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="clones" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="e" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="enabled" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="from" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="git" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="i" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="if" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="main" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="recurse" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="repository" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="submodules" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="the" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="there" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="when" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="with" hit=" When enabled, Checkout from Git calls 'git clone --recurse-submodules', i.e. clones the main repository with all submodules if there are any" />
-    <option name="" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="a" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="be" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="class" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="declaration" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="detached" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="from" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="ide" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="in" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="main" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="method" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="navigating" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="new" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="open" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="opened" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="overrides" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="same" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="source" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="tab" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="tabs" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="the" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="to" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="variable" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="when" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="will" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="window" hit=" When navigating to a method/class/variable declaration from a tab in the detached window, new tabs will be opened in the main IDE window. Overrides 'Open declaration source in the same tab'." />
-    <option name="" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="a" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="are" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="changes" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="class" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="contains" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="current" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="declaration" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="file" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="if" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="method" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="navigating" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="no" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="replace" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="source" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="tab" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="that" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="the" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="there" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="to" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="variable" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="when" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
-    <option name="will" hit=" When navigating to a method/class/variable declaration, the source file that contains the declaration will replace the current tab if there are no changes" />
     <option name="" hit="&gt; symbol" />
     <option name="symbol" hit="&gt; symbol" />
     <option name="advanced" hit="Advanced Settings" />
@@ -9531,14 +9186,6 @@
     <option name="pixels" hit="pixels" />
   </configurable>
   <configurable id="preferences.editor" configurable_name="General">
-    <option name="" hit=" Use * and ? as wildcards and ; to separate patterns" />
-    <option name="and" hit=" Use * and ? as wildcards and ; to separate patterns" />
-    <option name="as" hit=" Use * and ? as wildcards and ; to separate patterns" />
-    <option name="patterns" hit=" Use * and ? as wildcards and ; to separate patterns" />
-    <option name="separate" hit=" Use * and ? as wildcards and ; to separate patterns" />
-    <option name="to" hit=" Use * and ? as wildcards and ; to separate patterns" />
-    <option name="use" hit=" Use * and ? as wildcards and ; to separate patterns" />
-    <option name="wildcards" hit=" Use * and ? as wildcards and ; to separate patterns" />
     <option name="active" hit="Active editor" />
     <option name="editor" hit="Active editor" />
     <option name="active" hit="Active scheme" />
@@ -9553,17 +9200,6 @@
     <option name="the" hit="After the end of line" />
     <option name="all" hit="All editors" />
     <option name="editors" hit="All editors" />
-    <option name="all" hit="All formatting will be copied, including font, colors and so on" />
-    <option name="and" hit="All formatting will be copied, including font, colors and so on" />
-    <option name="be" hit="All formatting will be copied, including font, colors and so on" />
-    <option name="colors" hit="All formatting will be copied, including font, colors and so on" />
-    <option name="copied" hit="All formatting will be copied, including font, colors and so on" />
-    <option name="font" hit="All formatting will be copied, including font, colors and so on" />
-    <option name="formatting" hit="All formatting will be copied, including font, colors and so on" />
-    <option name="including" hit="All formatting will be copied, including font, colors and so on" />
-    <option name="on" hit="All formatting will be copied, including font, colors and so on" />
-    <option name="so" hit="All formatting will be copied, including font, colors and so on" />
-    <option name="will" hit="All formatting will be copied, including font, colors and so on" />
     <option name="all" hit="All lines" />
     <option name="lines" hit="All lines" />
     <option name="allow" hit="Allow caret placement:" />
@@ -9683,12 +9319,6 @@
     <option name="soft" hit="Soft-wrap these files:" />
     <option name="these" hit="Soft-wrap these files:" />
     <option name="wrap" hit="Soft-wrap these files:" />
-    <option name="copy" hit="To copy, hold Ctrl while dragging" />
-    <option name="ctrl" hit="To copy, hold Ctrl while dragging" />
-    <option name="dragging" hit="To copy, hold Ctrl while dragging" />
-    <option name="hold" hit="To copy, hold Ctrl while dragging" />
-    <option name="to" hit="To copy, hold Ctrl while dragging" />
-    <option name="while" hit="To copy, hold Ctrl while dragging" />
     <option name="break" hit="Upon line break:" />
     <option name="line" hit="Upon line break:" />
     <option name="upon" hit="Upon line break:" />
@@ -10183,24 +9813,6 @@
     <option name="xml" hit="XML tags" />
   </configurable>
   <configurable id="editor.preferences.completion" configurable_name="Code Completion">
-    <option name="" hit=" Ctrl+Maiusc+Barra spaziatrice" />
-    <option name="barra" hit=" Ctrl+Maiusc+Barra spaziatrice" />
-    <option name="ctrl" hit=" Ctrl+Maiusc+Barra spaziatrice" />
-    <option name="maiusc" hit=" Ctrl+Maiusc+Barra spaziatrice" />
-    <option name="spaziatrice" hit=" Ctrl+Maiusc+Barra spaziatrice" />
-    <option name="" hit=" Show fewer completion suggestions based on type information. May significantly improve performance." />
-    <option name="based" hit=" Show fewer completion suggestions based on type information. May significantly improve performance." />
-    <option name="completion" hit=" Show fewer completion suggestions based on type information. May significantly improve performance." />
-    <option name="fewer" hit=" Show fewer completion suggestions based on type information. May significantly improve performance." />
-    <option name="improve" hit=" Show fewer completion suggestions based on type information. May significantly improve performance." />
-    <option name="information" hit=" Show fewer completion suggestions based on type information. May significantly improve performance." />
-    <option name="may" hit=" Show fewer completion suggestions based on type information. May significantly improve performance." />
-    <option name="on" hit=" Show fewer completion suggestions based on type information. May significantly improve performance." />
-    <option name="performance" hit=" Show fewer completion suggestions based on type information. May significantly improve performance." />
-    <option name="show" hit=" Show fewer completion suggestions based on type information. May significantly improve performance." />
-    <option name="significantly" hit=" Show fewer completion suggestions based on type information. May significantly improve performance." />
-    <option name="suggestions" hit=" Show fewer completion suggestions based on type information. May significantly improve performance." />
-    <option name="type" hit=" Show fewer completion suggestions based on type information. May significantly improve performance." />
     <option name="add" hit="Add type annotations for suggested parameter names" />
     <option name="annotations" hit="Add type annotations for suggested parameter names" />
     <option name="for" hit="Add type annotations for suggested parameter names" />
@@ -11451,6 +11063,9 @@
     <option name="attribute" hit="Attribute value" />
     <option name="value" hit="Attribute value" />
     <option name="comment" hit="Comment" />
+    <option name="custom" hit="Custom Tag Name" />
+    <option name="name" hit="Custom Tag Name" />
+    <option name="tag" hit="Custom Tag Name" />
     <option name="entity" hit="Entity reference" />
     <option name="reference" hit="Entity reference" />
     <option name="code" hit="HTML code" />
@@ -11584,6 +11199,9 @@
     <option name="attribute" hit="Attribute Value" />
     <option name="value" hit="Attribute Value" />
     <option name="comment" hit="Comment" />
+    <option name="custom" hit="Custom Tag Name" />
+    <option name="name" hit="Custom Tag Name" />
+    <option name="tag" hit="Custom Tag Name" />
     <option name="entity" hit="Entity Reference" />
     <option name="reference" hit="Entity Reference" />
     <option name="fragment" hit="Injected Language Fragment" />
@@ -13201,7 +12819,7 @@
     <option name="minutes" hit="minutes" />
     <option name="rows" hit="rows" />
   </configurable>
-  <configurable id="project.propVCSSupport.Mappings" configurable_name="Directory Mappings">
+  <configurable id="project.propVCSSupport.DirectoryMappings" configurable_name="Directory Mappings">
     <option name="" hit="   - Content roots of all modules, and all immediate descendants of project base directory" />
     <option name="all" hit="   - Content roots of all modules, and all immediate descendants of project base directory" />
     <option name="and" hit="   - Content roots of all modules, and all immediate descendants of project base directory" />
@@ -13377,19 +12995,6 @@
     <option name="is" hit=" Default location is  /shelf" />
     <option name="location" hit=" Default location is  /shelf" />
     <option name="shelf" hit=" Default location is  /shelf" />
-    <option name="" hit=" The base content of files larger than 500K will not be stored" />
-    <option name="base" hit=" The base content of files larger than 500K will not be stored" />
-    <option name="be" hit=" The base content of files larger than 500K will not be stored" />
-    <option name="content" hit=" The base content of files larger than 500K will not be stored" />
-    <option name="files" hit=" The base content of files larger than 500K will not be stored" />
-    <option name="k" hit=" The base content of files larger than 500K will not be stored" />
-    <option name="larger" hit=" The base content of files larger than 500K will not be stored" />
-    <option name="not" hit=" The base content of files larger than 500K will not be stored" />
-    <option name="of" hit=" The base content of files larger than 500K will not be stored" />
-    <option name="stored" hit=" The base content of files larger than 500K will not be stored" />
-    <option name="than" hit=" The base content of files larger than 500K will not be stored" />
-    <option name="the" hit=" The base content of files larger than 500K will not be stored" />
-    <option name="will" hit=" The base content of files larger than 500K will not be stored" />
     <option name="change" hit="Change Shelves Location " />
     <option name="location" hit="Change Shelves Location " />
     <option name="shelves" hit="Change Shelves Location " />

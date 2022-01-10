@@ -1362,10 +1362,10 @@
     <option name="when" hit="When inside statement execute:" />
     <option name="script" hit="Whole script" />
     <option name="whole" hit="Whole script" />
-    <option name="data" hit="data rows in documentation" />
-    <option name="documentation" hit="data rows in documentation" />
-    <option name="in" hit="data rows in documentation" />
-    <option name="rows" hit="data rows in documentation" />
+    <option name="data" hit="data rows in preview" />
+    <option name="in" hit="data rows in preview" />
+    <option name="preview" hit="data rows in preview" />
+    <option name="rows" hit="data rows in preview" />
     <option name="execute" hit="for selection execute:" />
     <option name="for" hit="for selection execute:" />
     <option name="selection" hit="for selection execute:" />

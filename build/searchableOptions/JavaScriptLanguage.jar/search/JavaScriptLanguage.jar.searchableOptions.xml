@@ -2171,15 +2171,21 @@
     <option name="ower" hit="bower.json:" />
   </configurable>
   <configurable id="configurable.stylesheets.stylelint" configurable_name="Stylelint">
-    <option name="" hit="Configuration file:" />
+    <option name="" hit=" Use glob pattern, for example, {**/*,*}.{css,html}" />
+    <option name="css" hit=" Use glob pattern, for example, {**/*,*}.{css,html}" />
+    <option name="example" hit=" Use glob pattern, for example, {**/*,*}.{css,html}" />
+    <option name="for" hit=" Use glob pattern, for example, {**/*,*}.{css,html}" />
+    <option name="glob" hit=" Use glob pattern, for example, {**/*,*}.{css,html}" />
+    <option name="html" hit=" Use glob pattern, for example, {**/*,*}.{css,html}" />
+    <option name="pattern" hit=" Use glob pattern, for example, {**/*,*}.{css,html}" />
+    <option name="use" hit=" Use glob pattern, for example, {**/*,*}.{css,html}" />
     <option name="configuration" hit="Configuration file:" />
     <option name="file" hit="Configuration file:" />
     <option name="enable" hit="Enable" />
-    <option name="files" hit="Process JS files" />
-    <option name="js" hit="Process JS files" />
-    <option name="process" hit="Process JS files" />
+    <option name="files" hit="Run for files:" />
+    <option name="for" hit="Run for files:" />
+    <option name="run" hit="Run for files:" />
     <option name="stylelint" hit="Stylelint" />
-    <option name="" hit="Stylelint package:" />
     <option name="package" hit="Stylelint package:" />
     <option name="stylelint" hit="Stylelint package:" />
   </configurable>
