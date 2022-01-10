@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="437901f4-dc15-4c81-a952-90ebf94c63f1" name="Changes" comment="plugin inspections now consider only the biggest text range per line">
+    <list default="true" id="437901f4-dc15-4c81-a952-90ebf94c63f1" name="Changes" comment="plugin inspection now have a new implementation">
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaInspection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaInspection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,7 +353,9 @@
       <workItem from="1639486246884" duration="3270000" />
       <workItem from="1639835677353" duration="166000" />
       <workItem from="1639835873282" duration="10618000" />
-      <workItem from="1640254570059" duration="3896000" />
+      <workItem from="1640254570059" duration="4102000" />
+      <workItem from="1641837028306" duration="176000" />
+      <workItem from="1641837327058" duration="768000" />
     </task>
     <task id="LOCAL-00001" summary="pylisaplugin">
       <created>1639237990673</created>
@@ -394,7 +399,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639844353338</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="plugin inspections now consider only the biggest text range per line">
+      <created>1640258495490</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640258495490</updated>
+    </task>
+    <task id="LOCAL-00008" summary="plugin inspection now have a new implementation">
+      <created>1640258601287</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1640258601287</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,6 +437,7 @@
     <MESSAGE value="plugin inspections fixed" />
     <MESSAGE value="plugin inspections now consider only the biggest text range" />
     <MESSAGE value="plugin inspections now consider only the biggest text range per line" />
-    <option name="LAST_COMMIT_MESSAGE" value="plugin inspections now consider only the biggest text range per line" />
+    <MESSAGE value="plugin inspection now have a new implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="plugin inspection now have a new implementation" />
   </component>
 </project>

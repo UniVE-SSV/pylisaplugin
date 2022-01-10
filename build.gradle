@@ -12,8 +12,8 @@ repositories {
 
 intellij {
     pluginName = 'PyLisaPlugin'
-    plugins = ['Pythonid:213.5744.248']
+    plugins = ['Pythonid:213.6461.79']
     type = 'PY'
-    version = '2021.3'
+    version = '2021.3.1'
     downloadSources = false
 }
