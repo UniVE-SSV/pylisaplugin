@@ -4,12 +4,83 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="437901f4-dc15-4c81-a952-90ebf94c63f1" name="Changes" comment="plugin inspection now have a new implementation">
+    <list default="true" id="437901f4-dc15-4c81-a952-90ebf94c63f1" name="Changes" comment="updated pycharm and python plugin to january">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/java/it/unive/pylisa/notebooks/NotebookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/java/it/unive/pylisa/notebooks/PyStructureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/java/it/unive/pylisa/notebooks/PyTransformationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/java/it/unive/pylisa/notebooks/structure/NotebookStructureDomainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/base_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/base_events_cleaned.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/base_futures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/base_subprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/base_tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/coroutines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/data/covid-19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/data/credit-fraud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/data/data-exploration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/data/guide.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/data/notebook/covid-19.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/data/notebook/credit-fraud.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/data/notebook/data-exploration.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/data/notebook/titanic.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/data/titanic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/futures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/locks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/proactor_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/protocols.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/py1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/queues.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/selector_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/sslproto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/streams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/subprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/test.lisp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/transports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/unix_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/windows_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/test/resources/pyTest/windows_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/NotebookTestPub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaActionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/.home" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/.home" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/attrib.dat.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/content.dat.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/names.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/caches/records.dat.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/indices.config" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/indices.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/index/js.implicit.elements.index/js.implicit.elements.index.ver" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/index/js.implicit.elements.index/js.implicit.elements.index.ver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/log/idea.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/pluginsXMLIds.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/pluginsXMLIds.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/pluginsXMLIds.json.etag" beforeDir="false" afterPath="$PROJECT_DIR$/build/idea-sandbox/system/plugins/pluginsXMLIds.json.etag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/patchedPluginXmlFiles/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/patchedPluginXmlFiles/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/searchableOptions/platform-impl.jar/search/platform-impl.jar.searchableOptions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/searchableOptions/platform-impl.jar/search/platform-impl.jar.searchableOptions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaInspection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaInspection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +120,6 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="intellij" type="c8890929:TasksNode$1" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="pylisaplugin" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -66,6 +132,7 @@
       <list>
         <option value="HTML File" />
         <option value="InspectionDescription" />
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -103,13 +170,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pylisa.jar" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/A/B" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF/InspectionDescriptions" />
     </key>
@@ -355,7 +423,15 @@
       <workItem from="1639835873282" duration="10618000" />
       <workItem from="1640254570059" duration="4102000" />
       <workItem from="1641837028306" duration="176000" />
-      <workItem from="1641837327058" duration="768000" />
+      <workItem from="1641837327058" duration="1118000" />
+      <workItem from="1644757770338" duration="629000" />
+      <workItem from="1644758535558" duration="755000" />
+      <workItem from="1644828639283" duration="2289000" />
+      <workItem from="1645631886241" duration="6098000" />
+      <workItem from="1645724324251" duration="30000" />
+      <workItem from="1646121484827" duration="3657000" />
+      <workItem from="1646126203784" duration="3757000" />
+      <workItem from="1646139885942" duration="2672000" />
     </task>
     <task id="LOCAL-00001" summary="pylisaplugin">
       <created>1639237990673</created>
@@ -413,7 +489,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640258601287</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updated pycharm and python plugin to january">
+      <created>1641838400685</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641838400685</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updated pycharm and python plugin to january">
+      <created>1641838427062</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641838427062</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,6 +528,7 @@
     <MESSAGE value="plugin inspections now consider only the biggest text range" />
     <MESSAGE value="plugin inspections now consider only the biggest text range per line" />
     <MESSAGE value="plugin inspection now have a new implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="plugin inspection now have a new implementation" />
+    <MESSAGE value="updated pycharm and python plugin to january" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated pycharm and python plugin to january" />
   </component>
 </project>

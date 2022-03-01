@@ -76,12 +76,12 @@ public class PyLisaInspection extends LocalInspectionTool {
         };
     };
 
-    //TODO Javadoc e commenti
-
     //prima parte: introduzione con spiegazione di cosa devo fare: analizzo codice python tramite un plugin su pycharm etc
     //seconda parte: componenti tecniche che precedono lo sviluppo del mio plugin, pylisa con errori e warning
     //terza parte: come ho sviluppato il plugin con trials and errors ed i miei approcci e limiti tecnici
     //quarta parte: risultati sperimentali
 
-    //Febbraio 14 call 16:30-17:30
+    //Febbraio 14 call 10:00-11:00
+
+    //TODO Javadoc e Commenti
 }

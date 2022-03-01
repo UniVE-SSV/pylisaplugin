@@ -1,18 +1,30 @@
 <idea-plugin>
-  <version>0.1b3</version>
-  <idea-version since-build="213.6461" until-build="213.*" />
+  <version>0.1b5</version>
+  <idea-version since-build="213.6777" until-build="213.*" />
   <id>ml.PyLisa</id>
   <name>PyLisa</name>
   <vendor>ml</vendor>
   <description><![CDATA[Description: Analyzer for Jupyter Notebooks]]></description>
   <depends>com.intellij.modules.python</depends>
-  <extensions defaultExtensionNs="com.intellij">
-    <localInspection id="PyLisaInspection" language="JupyterPython" displayName="PyLisaInspection" groupPath="Jupyter" groupName="PyLisaInspections" level="WARNING" runForWholeFile="true" enabledByDefault="false" implementationClass="PyLisa.PyLisaInspection" />
-  </extensions>
+  <!--<extensions defaultExtensionNs="com.intellij">
+        <localInspection id="PyLisaInspection"
+                         language="JupyterPython"
+                         displayName="PyLisaInspection"
+                         groupPath="Jupyter"
+                         groupName="PyLisaInspections"
+                         level="WARNING"
+                         runForWholeFile="true"
+                         enabledByDefault="false"
+                         implementationClass="PyLisa.PyLisaInspection"/>
+    </extensions>-->
   <actions>
     <group id="PyLisaActions" text="PyLisaActions" popup="true">
       <add-to-group group-id="MainMenu" anchor="last" />
-      <action id="PyLisaAction" text="PyLisaAction" class="PyLisa.PyLisaAction" />
+      <!--action id="PyLisaAction"
+                    text="PyLisaAction"
+                    class="PyLisa.PyLisaAction">
+            </action-->
+      <action id="PyLisaActionTest" text="TEST" class="PyLisa.PyLisaActionTest" />
     </group>
   </actions>
 </idea-plugin>

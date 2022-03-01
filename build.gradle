@@ -1,19 +1,25 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.intellij' version '1.3.0'
+    id 'org.jetbrains.intellij' version '1.4.0'
 }
 
 group 'it.unive'
-version '0.1b3'
+version '0.1b5'
 
 repositories {
     mavenCentral()
 }
 
+dependencies {
+    implementation 'com.github.unive-ssv:pylisa:0.1a1'
+    implementation 'com.github.unive-ssv:lisa-core:0.1b5'
+    implementation 'com.github.unive-ssv:lisa-sdk:0.1b5'
+}
+
 intellij {
     pluginName = 'PyLisaPlugin'
-    plugins = ['Pythonid:213.6461.79']
+    plugins = ['Pythonid:213.6777.52']
     type = 'PY'
-    version = '2021.3.1'
+    version = '2021.3.2'
     downloadSources = false
 }
