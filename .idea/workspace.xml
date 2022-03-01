@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="437901f4-dc15-4c81-a952-90ebf94c63f1" name="Changes" comment="updated pycharm and python plugin to january">
+    <list default="true" id="437901f4-dc15-4c81-a952-90ebf94c63f1" name="Changes" comment="updated code with new lisa additions">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -357,7 +357,7 @@
       <workItem from="1645724324251" duration="30000" />
       <workItem from="1646121484827" duration="3657000" />
       <workItem from="1646126203784" duration="3757000" />
-      <workItem from="1646139885942" duration="3875000" />
+      <workItem from="1646139885942" duration="3922000" />
     </task>
     <task id="LOCAL-00001" summary="pylisaplugin">
       <created>1639237990673</created>
@@ -436,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646142727333</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updated code with new lisa additions">
+      <created>1646151788256</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1646151788256</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,6 +469,7 @@
     <MESSAGE value="plugin inspections now consider only the biggest text range per line" />
     <MESSAGE value="plugin inspection now have a new implementation" />
     <MESSAGE value="updated pycharm and python plugin to january" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated pycharm and python plugin to january" />
+    <MESSAGE value="updated code with new lisa additions" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated code with new lisa additions" />
   </component>
 </project>
