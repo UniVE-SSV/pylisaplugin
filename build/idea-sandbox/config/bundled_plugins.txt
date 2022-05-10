@@ -62,6 +62,7 @@ JavaScriptDebugger|JavaScript Frameworks and Tools
 JavaScript|JavaScript Frameworks and Tools
 tslint|JavaScript Frameworks and Tools
 com.intellij.database|Database
+Pythonid|null
 JSIntentionPowerPack|JavaScript Frameworks and Tools
 org.coffeescript|JavaScript Frameworks and Tools
 com.jetbrains.changeReminder|Version Controls

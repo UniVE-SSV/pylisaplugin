@@ -11,7 +11,7 @@
 
     <depends>com.intellij.modules.python</depends>
 
-    <!--<extensions defaultExtensionNs="com.intellij">
+    <extensions defaultExtensionNs="com.intellij">
         <localInspection id="PyLisaInspection"
                          language="JupyterPython"
                          displayName="PyLisaInspection"
@@ -21,18 +21,28 @@
                          runForWholeFile="true"
                          enabledByDefault="false"
                          implementationClass="PyLisa.PyLisaInspection"/>
-    </extensions>-->
+    </extensions>
 
     <actions>
         <group id="PyLisaActions" text="PyLisaActions" popup="true">
             <add-to-group group-id="MainMenu" anchor="last"/>
-            <!--action id="PyLisaAction"
+            <action id="PyLisaAction"
                     text="PyLisaAction"
                     class="PyLisa.PyLisaAction">
-            </action-->
+            </action>
             <action id="PyLisaActionTest"
                     text="TEST"
                     class="PyLisa.PyLisaActionTest">
+            </action>
+            <action
+                id="PyLisaLog"
+                text="PyLisaLog"
+                class="PyLisa.PyLisaActionLog">
+            </action>
+            <action id="PyLisaServer"
+                    text="PyLisaServer"
+                    class="PyLisaActionServer">
+
             </action>
         </group>
     </actions>

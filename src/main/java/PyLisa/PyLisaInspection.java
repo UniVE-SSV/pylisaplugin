@@ -6,16 +6,27 @@ import PyLisa.ForAnalysis.Warning;
 import PyLisa.ForAnalysis.WarningWithLocation;
 import com.intellij.codeInspection.LocalInspectionTool;
 import com.intellij.codeInspection.LocalQuickFix;
+import com.intellij.codeInspection.ProblemDescriptor;
 import com.intellij.codeInspection.ProblemsHolder;
 import com.intellij.openapi.editor.Document;
 import com.intellij.psi.*;
 import com.jetbrains.python.psi.PyExpression;
 import com.jetbrains.python.psi.PyStatement;
 import org.jetbrains.annotations.NotNull;
-
 import java.util.*;
+import java.util.List;
+
+
 
 public class PyLisaInspection extends LocalInspectionTool {
+
+    static String fileName;
+
+    static List<ProblemDescriptor> warnings_res;
+
+    static Document notebook;
+
+
     @Override
     public @NotNull PsiElementVisitor buildVisitor(@NotNull ProblemsHolder pHolder, boolean isOnTheFly) {
         return new PsiElementVisitor() {
@@ -49,6 +60,7 @@ public class PyLisaInspection extends LocalInspectionTool {
                     }
                 });
 
+
                 //For each key in the Map
                 for(Integer key : pMap.keySet()) {
                     PsiElement p = null;
@@ -70,11 +82,37 @@ public class PyLisaInspection extends LocalInspectionTool {
                         for (PsiElement pElement : pElements)
                             if (wLine == dFile.getLineNumber(pElement.getTextRange().getStartOffset()))
                                 pHolder.registerProblem(pElement, e.getMessage(), (LocalQuickFix) null);
+
+
+
+
                     }
                 }
+                //get the name of the file analyzed and the results of the inspection
+                if(!pHolder.getResults().isEmpty()){
+                    fileName=pFile.getName();
+                    warnings_res=pHolder.getResults();
+                    //get the whole file analyzed
+                    notebook=dFile;
+
+
+
+                }
+
             }
+
+
+
+
         };
-    };
+
+
+    }
+
+
+
+
+
 
     //prima parte: introduzione con spiegazione di cosa devo fare: analizzo codice python tramite un plugin su pycharm etc
     //seconda parte: componenti tecniche che precedono lo sviluppo del mio plugin, pylisa con errori e warning

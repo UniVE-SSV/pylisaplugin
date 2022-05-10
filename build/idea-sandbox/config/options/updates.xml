@@ -1,5 +1,7 @@
 <application>
   <component name="UpdatesConfigurable">
     <option name="CHECK_NEEDED" value="false" />
+    <option name="LAST_BUILD_CHECKED" value="PY-213.7172.26" />
+    <option name="LAST_TIME_CHECKED" value="1651762526800" />
   </component>
 </application>
