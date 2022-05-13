@@ -440,7 +440,8 @@
       <workItem from="1651591464840" duration="3696000" />
       <workItem from="1651761273444" duration="2101000" />
       <workItem from="1651764841628" duration="2722000" />
-      <workItem from="1652002845423" duration="4853000" />
+      <workItem from="1652002845423" duration="6339000" />
+      <workItem from="1652433241704" duration="197000" />
     </task>
     <task id="LOCAL-00001" summary="pylisaplugin">
       <created>1639237990673</created>
@@ -533,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652179404493</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="updated code with new lisa additions: action PyLisaActionLog for create a logfile and action PyLisaActionServer for the upload of logfile to FTPServer">
+      <created>1652179828377</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1652179828377</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
