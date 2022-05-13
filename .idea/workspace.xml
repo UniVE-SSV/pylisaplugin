@@ -7,8 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="437901f4-dc15-4c81-a952-90ebf94c63f1" name="Changes" comment="updated code with new lisa additions: action PyLisaActionLog for create a logfile and action PyLisaActionServer for the upload of logfile to FTPServer">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="437901f4-dc15-4c81-a952-90ebf94c63f1" name="Changes" comment="refactor PyLisaActionServer">
+      <change beforePath="$PROJECT_DIR$/src/main/java/PyLisa/ForAnalysis/PyLisaActionServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PyLisa/PyLisaActionServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -569,7 +570,8 @@
     <MESSAGE value="updated pycharm and python plugin to january" />
     <MESSAGE value="updated code with new lisa additions" />
     <MESSAGE value="updated code with new lisa additions: action PyLisaActionLog for create a logfile and action PyLisaActionServer for the upload of logfile to FTPServer" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated code with new lisa additions: action PyLisaActionLog for create a logfile and action PyLisaActionServer for the upload of logfile to FTPServer" />
+    <MESSAGE value="refactor PyLisaActionServer" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor PyLisaActionServer" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

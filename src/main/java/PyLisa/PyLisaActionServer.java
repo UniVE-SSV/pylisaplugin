@@ -1,4 +1,4 @@
-package PyLisa.ForAnalysis;
+package PyLisa;
 
 import PyLisa.PyLisaLogger;
 import com.intellij.openapi.actionSystem.AnAction;

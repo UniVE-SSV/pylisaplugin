@@ -41,7 +41,7 @@
             </action>
             <action id="PyLisaServer"
                     text="PyLisaServer"
-                    class="PyLisa.ForAnalysis.PyLisaActionServer">
+                    class="PyLisa.PyLisaActionServer">
 
             </action>
         </group>
