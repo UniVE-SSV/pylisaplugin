@@ -15,7 +15,8 @@
       <action id="PyLisaAction" text="PyLisaAction" class="PyLisa.PyLisaAction" />
       <action id="PyLisaActionTest" text="TEST" class="PyLisa.PyLisaActionTest" />
       <action id="PyLisaLog" text="PyLisaLog" class="PyLisa.PyLisaActionLog" />
-      <action id="PyLisaServer" text="PyLisaServer" class="PyLisaServerAction" />
+      <action id="PyLisaServer" text="PyLisaServer" class="PyLisa.PyLisaActionServer" />
+      <action id="PyLisaDiff" text="PyLisaDiff" class="PyLisa.PyLisaActionDiff" />
     </group>
   </actions>
 </idea-plugin>

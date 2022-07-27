@@ -1,6 +1,5 @@
 package PyLisa;
 
-import PyLisa.PyLisaLogger;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.ui.Messages;
@@ -21,7 +20,7 @@ public class PyLisaActionServer extends AnAction {
             ftpClient.login(user,pass);
             ftpClient.enterLocalPassiveMode();
 
-            File file= new File(PyLisaLogger.filePath);
+            File file= new File(System.getProperty(PyLisaLogger.filePath));
             String fileName= file.getName();
             InputStream inputStream=new FileInputStream(file);
             Messages.showInfoMessage("start uploading "+fileName,"Pylisa");
@@ -31,7 +30,7 @@ public class PyLisaActionServer extends AnAction {
                 Messages.showInfoMessage("The file "+fileName+" is uploaded successfully","PyLisa");
             }
         }catch (IOException ex){
-            Messages.showInfoMessage("Error "+ex.getMessage(),"PyLisa");
+            Messages.showErrorDialog("Error "+ex.getMessage(),"PyLisa");
             ex.printStackTrace();
         } finally {
             try {

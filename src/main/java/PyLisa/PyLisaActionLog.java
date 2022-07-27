@@ -19,8 +19,8 @@ public class PyLisaActionLog  extends AnAction {
         //Project project=anActionEvent.getProject();
 
         //to be tested when there is a working checker
-        if(PyLisaInspection.warnings_res.isEmpty()){
-            Messages.showInfoMessage("No warnings or errors found.\n" +
+        if(PyLisaInspection.war.isEmpty()){
+            Messages.showErrorDialog("No warnings or errors found.\n" +
                     "LogFile not created","Pylisa");
         }
         else {
@@ -28,14 +28,16 @@ public class PyLisaActionLog  extends AnAction {
             try {
                 PyLisaLogger.doLogging();
             } catch (SocketException e) {
-               Messages.showInfoMessage(e.getMessage(),"PyLisa");
+               Messages.showErrorDialog(e.getMessage(),"PyLisa");
             }
-            Messages.showInfoMessage("LogFile created or updated","Pylisa");
+            Messages.showInfoMessage("LogFile created","Pylisa");
+
         }
 
     }
     @Override
     public void update(@NotNull AnActionEvent e) {
+        super.update(e);
 
     }
 }

@@ -44,6 +44,11 @@
                     class="PyLisa.PyLisaActionServer">
 
             </action>
+            <action id="PyLisaDiff"
+                    text="PyLisaDiff"
+                    class="PyLisa.PyLisaActionDiff">
+
+            </action>
         </group>
     </actions>
 </idea-plugin>

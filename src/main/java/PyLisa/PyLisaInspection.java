@@ -1,9 +1,6 @@
 package PyLisa;
 
-import PyLisa.ForAnalysis.SourceCodeLocation;
-import PyLisa.ForAnalysis.Stub;
-import PyLisa.ForAnalysis.Warning;
-import PyLisa.ForAnalysis.WarningWithLocation;
+import PyLisa.ForAnalysis.*;
 import com.intellij.codeInspection.LocalInspectionTool;
 import com.intellij.codeInspection.LocalQuickFix;
 import com.intellij.codeInspection.ProblemDescriptor;
@@ -12,7 +9,13 @@ import com.intellij.openapi.editor.Document;
 import com.intellij.psi.*;
 import com.jetbrains.python.psi.PyExpression;
 import com.jetbrains.python.psi.PyStatement;
+import it.unive.lisa.checks.syntactic.SyntacticCheck;
+import org.ini4j.spi.Warnings;
 import org.jetbrains.annotations.NotNull;
+
+import java.io.IOException;
+import java.io.StringWriter;
+import java.io.Writer;
 import java.util.*;
 import java.util.List;
 
@@ -22,7 +25,13 @@ public class PyLisaInspection extends LocalInspectionTool {
 
     static String fileName;
 
-    static List<ProblemDescriptor> warnings_res;
+    static LiSAConfiguration liSAConfiguration;
+
+    static StringWriter res=new StringWriter();
+
+    static Collection<Warning> war;
+
+    //static List<ProblemDescriptor> warnings_res;
 
     static Document notebook;
 
@@ -34,7 +43,7 @@ public class PyLisaInspection extends LocalInspectionTool {
             public void visitFile(@NotNull PsiFile pFile) {
                 Document dFile = PsiDocumentManager.getInstance(pFile.getProject()).getDocument(pFile);
                 Collection<Warning> warnings = Stub.analyze(pFile.getVirtualFile().getPath());
-
+                //war=warnings;
                 //Map that links a line of the document with a Set of PsiElements
                 Map<Integer, Set<PsiElement>> pMap = new HashMap<>();
 
@@ -88,10 +97,13 @@ public class PyLisaInspection extends LocalInspectionTool {
 
                     }
                 }
-                //get the name of the file analyzed and the results of the inspection
+
+                war=warnings;
+
+                //get the name of the file analyzed
                 if(!pHolder.getResults().isEmpty()){
                     fileName=pFile.getName();
-                    warnings_res=pHolder.getResults();
+                    //warnings_res=pHolder.getResults();
                     //get the whole file analyzed
                     notebook=dFile;
 
@@ -99,12 +111,25 @@ public class PyLisaInspection extends LocalInspectionTool {
 
                 }
 
+
+
+
+
+
             }
 
 
 
 
+
+
+
         };
+
+
+
+
+
 
 
     }
