@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 
+import static java.lang.Math.abs;
 
 
 public class PyLisaActionDiff extends AnAction {
@@ -135,20 +136,21 @@ public class PyLisaActionDiff extends AnAction {
                JsonReport jr1=recreateWarn(filePath1);
                LiSAConfiguration l1=recreateConf(filePath1);
                int n_warn1 = jr1.getWarnings().size();
-               Messages.showInfoMessage("Warnings analisi " + filePath1 + ": " + n_warn1, "Warnings1");
                //take the penultimate log file created
                String filePath2 = System.getProperty("user.home") + "/pyLisaLogFile_" + PyLisaInspection.fileName + (j - 2) + ".log";
                JsonReport jr2=recreateWarn(filePath2);
                LiSAConfiguration l2=recreateConf(filePath2);
                int n_warn2 = jr2.getWarnings().size();
-               Messages.showInfoMessage("Warnings analisi " + filePath2 + ": " + n_warn2, "Warnings2");
                //difference number of warnings
                int diff_warn = n_warn1 - n_warn2;
-               Messages.showInfoMessage("Diff Warnings:" + diff_warn, "DIFF");
                //compare JsonReport
                boolean equals_jsonReport=jr1.equals(jr2);
                if(equals_jsonReport){
-                   Messages.showInfoMessage("uguali", "diff");
+                   Messages.showInfoMessage("Same warnings", "DIFF");
+               }
+               else{
+                   Messages.showInfoMessage("Warnings in the analysis \n"+filePath1+":\n"+n_warn1+"\n"+
+                           "Warnings in the analysis\n"+filePath2+":\n"+n_warn2+"\n"+"Diff Warnings:" + diff_warn, "DIFF");
                }
                //compare LisaConfiguration
                boolean equals_LISAConfiguration=l1.equals(l2);

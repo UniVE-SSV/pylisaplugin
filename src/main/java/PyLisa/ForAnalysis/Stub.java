@@ -14,8 +14,8 @@ public class Stub {
         result.add(new Stub.PyWarningWithLocation(new SourceCodeLocation(filePath, 3, 12), "bad warning at line 3!"));
         result.add(new Stub.PyWarningWithLocation(new SourceCodeLocation(filePath, 4, 18), "bad warning at line 4!"));
         result.add(new Stub.PyWarningWithLocation(new SourceCodeLocation(filePath, 5, 3), "bad warning at line 5!"));
-        result.add(new Stub.PyWarningWithLocation(new SourceCodeLocation(filePath, 6, 9), "bad warning at line 6!"));
-        result.add(new Stub.PyWarningWithLocation(new SourceCodeLocation(filePath, 7, 18), "bad warning at line 7!"));
+        //result.add(new Stub.PyWarningWithLocation(new SourceCodeLocation(filePath, 6, 9), "bad warning at line 6!"));
+        //result.add(new Stub.PyWarningWithLocation(new SourceCodeLocation(filePath, 7, 18), "bad warning at line 7!"));
         return result;
     }
 
